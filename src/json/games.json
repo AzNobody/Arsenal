@@ -1,0 +1,5437 @@
+[
+	{
+		"id": 1,
+		"name": "The Witcher 3: Wild Hunt",
+		"price": 29.99,
+		"developer": "CD Projekt",
+		"editor": "CD Projekt",
+		"release_date": "2015-05-19",
+		"image": "witcher3.jpg",
+		"description": "Open-world RPG with a gripping narrative and stunning visuals.",
+		"ratings": 4.9,
+		"tags": [
+			"Action",
+			"Adventure",
+			"RPG"
+		],
+		"minimal_config": {
+			"os": "Windows 7",
+			"processor": "Intel Core i5-2500K",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 660"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i7-3770",
+			"memory": "16 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 770"
+		},
+		"platforms": [
+			"Windows",
+			"PlayStation",
+			"Xbox"
+		],
+		"comments": [
+			{
+				"name": "GeraltFan",
+				"datetime": "2023-01-20T12:30:00",
+				"commentary": "Absolutely amazing story and world-building.",
+				"rating": 5.0
+			},
+			{
+				"name": "RPGMaster",
+				"datetime": "2023-01-21T10:45:00",
+				"commentary": "One of the best RPGs ever made.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 1,
+				"name": "Hearts of Stone",
+				"price": 9.99,
+				"release_date": "2015-10-13"
+			},
+			{
+				"id": 2,
+				"name": "Blood and Wine",
+				"price": 19.99,
+				"release_date": "2016-05-31"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Civilization VI",
+		"price": 39.99,
+		"developer": "Firaxis Games",
+		"editor": "2K",
+		"release_date": "2016-10-21",
+		"image": "civ6.jpg",
+		"description": "Turn-based strategy game where you build and lead your civilization to greatness.",
+		"ratings": 4.7,
+		"tags": [
+			"Strategy",
+			"Simulation"
+		],
+		"minimal_config": {
+			"os": "Windows 7",
+			"processor": "Intel Core i3-2100",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 450"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5-5500",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 970"
+		},
+		"platforms": [
+			"Windows",
+			"Mac",
+			"Linux"
+		],
+		"comments": [
+			{
+				"name": "StrategyGuru",
+				"datetime": "2023-02-25T15:20:00",
+				"commentary": "Love the depth and complexity of the strategic gameplay.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 3,
+				"name": "Rise and Fall",
+				"price": 29.99,
+				"release_date": "2018-02-08"
+			},
+			{
+				"id": 4,
+				"name": "Gathering Storm",
+				"price": 39.99,
+				"release_date": "2019-02-14"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Dead by Daylight",
+		"price": 19.99,
+		"developer": "Behaviour Interactive",
+		"editor": "Behaviour Interactive",
+		"release_date": "2016-06-14",
+		"image": "deadbydaylight.jpg",
+		"description": "Asymmetrical horror multiplayer game where one player is the killer and the others are survivors.",
+		"ratings": 4.6,
+		"tags": [
+			"Horror",
+			"Survival"
+		],
+		"minimal_config": {
+			"os": "Windows 7",
+			"processor": "Intel Core i3-4170",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 730"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5-4170",
+			"memory": "16 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 960"
+		},
+		"platforms": [
+			"Windows",
+			"PlayStation",
+			"Xbox"
+		],
+		"comments": [
+			{
+				"name": "HorrorFanatic",
+				"datetime": "2023-03-15T18:10:00",
+				"commentary": "Terrifying and intense, especially as the survivor.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 5,
+				"name": "Stranger Things Chapter",
+				"price": 11.99,
+				"release_date": "2019-09-17"
+			},
+			{
+				"id": 6,
+				"name": "Silent Hill Chapter",
+				"price": 11.99,
+				"release_date": "2020-06-16"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Counter-Strike: Global Offensive",
+		"price": 14.99,
+		"developer": "Valve",
+		"editor": "Valve",
+		"release_date": "2012-08-21",
+		"image": "csgo.jpg",
+		"description": "Tactical first-person shooter with fast-paced multiplayer action.",
+		"ratings": 4.2,
+		"tags": [
+			"FPS",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 7",
+			"processor": "Intel Core 2 Duo E6600",
+			"memory": "2 GB RAM",
+			"graphics": "NVIDIA GeForce GT 420"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5-4690",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 660"
+		},
+		"platforms": [
+			"Windows",
+			"Mac",
+			"Linux"
+		],
+		"comments": [
+			{
+				"name": "CSFanatic",
+				"datetime": "2023-04-01T14:50:00",
+				"commentary": "Classic and still going strong after all these years.",
+				"rating": 4.5
+			},
+			{
+				"name": "TacticalGamer",
+				"datetime": "2023-04-02T09:15:00",
+				"commentary": "Intense and competitive gameplay.",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 7,
+				"name": "Operation Hydra",
+				"price": 5.99,
+				"release_date": "2017-05-23"
+			},
+			{
+				"id": 8,
+				"name": "Danger Zone",
+				"price": 0.0,
+				"release_date": "2018-12-06"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "The Elder Scrolls V: Skyrim",
+		"price": 39.99,
+		"developer": "Bethesda Game Studios",
+		"editor": "Bethesda Softworks",
+		"release_date": "2011-11-11",
+		"image": "skyrim.jpg",
+		"description": "Open-world action RPG set in a vast fantasy world.",
+		"ratings": 4.8,
+		"tags": [
+			"RPG",
+			"Action",
+			"Adventure"
+		],
+		"minimal_config": {
+			"os": "Windows 7",
+			"processor": "Intel Core i5-750",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 260"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5-2400",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 780"
+		},
+		"platforms": [
+			"Windows",
+			"PlayStation",
+			"Xbox"
+		],
+		"comments": [
+			{
+				"name": "Dragonborn",
+				"datetime": "2023-04-10T12:30:00",
+				"commentary": "Still one of the best RPGs ever created.",
+				"rating": 5.0
+			},
+			{
+				"name": "EpicExplorer",
+				"datetime": "2023-04-11T09:45:00",
+				"commentary": "Lost count of the hours spent exploring Skyrim's vast world.",
+				"rating": 4.9
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 9,
+				"name": "Dawnguard",
+				"price": 19.99,
+				"release_date": "2012-06-26"
+			},
+			{
+				"id": 10,
+				"name": "Hearthfire",
+				"price": 4.99,
+				"release_date": "2012-09-04"
+			},
+			{
+				"id": 11,
+				"name": "Dragonborn",
+				"price": 19.99,
+				"release_date": "2013-02-05"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Fortnite",
+		"price": 0.0,
+		"developer": "Epic Games",
+		"editor": "Epic Games",
+		"release_date": "2017-07-25",
+		"image": "fortnite.jpg",
+		"description": "Battle Royale game with a unique building mechanic and vibrant graphics.",
+		"ratings": 4.4,
+		"tags": [
+			"Action",
+			"FPS"
+		],
+		"minimal_config": {
+			"os": "Windows 7/8/10",
+			"processor": "Intel Core i3",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA GTX 600 / AMD Radeon HD 7870"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GTX 970 / AMD Radeon R9 390"
+		},
+		"platforms": [
+			"Windows",
+			"Mac",
+			"PlayStation",
+			"Xbox",
+			"Switch"
+		],
+		"comments": [
+			{
+				"name": "BattleRoyaleFan",
+				"datetime": "2023-05-01T15:30:00",
+				"commentary": "Love the fast-paced action and building mechanics.",
+				"rating": 4.5
+			},
+			{
+				"name": "BuilderPro",
+				"datetime": "2023-05-02T12:15:00",
+				"commentary": "Building adds a unique strategic element to the game.",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 12,
+				"name": "Battle Pass Season 1",
+				"price": 9.99,
+				"release_date": "2017-10-11"
+			},
+			{
+				"id": 13,
+				"name": "Chapter 2 - Season 3",
+				"price": 14.99,
+				"release_date": "2020-06-17"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "FIFA 22",
+		"price": 59.99,
+		"developer": "EA Vancouver",
+		"editor": "Electronic Arts",
+		"release_date": "2021-10-01",
+		"image": "fifa22.jpg",
+		"description": "Football simulation game with realistic graphics and immersive gameplay.",
+		"ratings": 4.6,
+		"tags": [
+			"Sport",
+			"Simulation"
+		],
+		"minimal_config": {
+			"os": "Windows 7/8.1/10",
+			"processor": "Intel Core i3-6100",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GTX 660 / AMD Radeon HD 7850"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5-3550K",
+			"memory": "16 GB RAM",
+			"graphics": "NVIDIA GTX 670 / AMD Radeon R9 270X"
+		},
+		"platforms": [
+			"Windows",
+			"PlayStation",
+			"Xbox"
+		],
+		"comments": [
+			{
+				"name": "FootballFanatic",
+				"datetime": "2023-05-10T18:45:00",
+				"commentary": "Great improvements in graphics and gameplay.",
+				"rating": 4.8
+			},
+			{
+				"name": "SoccerGuru",
+				"datetime": "2023-05-11T11:30:00",
+				"commentary": "Love the realism and attention to detail.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 14,
+				"name": "Ultimate Team Pack",
+				"price": 19.99,
+				"release_date": "2021-10-10"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "The Legend of Zelda: Breath of the Wild",
+		"price": 59.99,
+		"developer": "Nintendo EPD",
+		"editor": "Nintendo",
+		"release_date": "2017-03-03",
+		"image": "zelda.jpg",
+		"description": "Action-adventure game set in an open world with a focus on exploration and puzzle-solving.",
+		"ratings": 4.9,
+		"tags": [
+			"Action",
+			"Adventure",
+			"RPG"
+		],
+		"minimal_config": {
+			"os": "Nintendo Switch",
+			"processor": "Custom",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA Custom Tegra processor"
+		},
+		"recommended_config": {
+			"os": "Nintendo Switch",
+			"processor": "Custom",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA Custom Tegra processor"
+		},
+		"platforms": [
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "ZeldaFan",
+				"datetime": "2023-05-20T14:20:00",
+				"commentary": "A masterpiece of game design and storytelling.",
+				"rating": 5.0
+			},
+			{
+				"name": "AdventureSeeker",
+				"datetime": "2023-05-21T09:45:00",
+				"commentary": "The open world is breathtaking, and the puzzles are challenging.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone 10+",
+		"dlc": []
+	},
+	{
+		"id": 9,
+		"name": "Overwatch",
+		"price": 39.99,
+		"developer": "Blizzard Entertainment",
+		"editor": "Blizzard Entertainment",
+		"release_date": "2016-05-24",
+		"image": "overwatch.jpg",
+		"description": "Team-based multiplayer first-person shooter with unique characters and abilities.",
+		"ratings": 4.5,
+		"tags": [
+			"FPS",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 7/8/10",
+			"processor": "Intel Core i3",
+			"memory": "4 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 460 / ATI Radeon HD 4850"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "6 GB RAM",
+			"graphics": "NVIDIA GeForce GTX 660 / ATI Radeon HD 7950"
+		},
+		"platforms": [
+			"Windows",
+			"PlayStation",
+			"Xbox"
+		],
+		"comments": [
+			{
+				"name": "FPSMaster",
+				"datetime": "2023-06-01T16:30:00",
+				"commentary": "Unique heroes and abilities make each match exciting.",
+				"rating": 4.7
+			},
+			{
+				"name": "TeamPlayer",
+				"datetime": "2023-06-02T11:15:00",
+				"commentary": "Great teamwork-focused gameplay.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 15,
+				"name": "Origins Edition Upgrade",
+				"price": 19.99,
+				"release_date": "2016-05-24"
+			},
+			{
+				"id": 16,
+				"name": "Legendary Edition",
+				"price": 29.99,
+				"release_date": "2017-05-23"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Minecraft",
+		"price": 26.95,
+		"developer": "Mojang Studios",
+		"editor": "Mojang Studios",
+		"release_date": "2011-11-18",
+		"image": "minecraft.jpg",
+		"description": "Sandbox game that allows players to build and explore virtual worlds made up of blocks.",
+		"ratings": 4.7,
+		"tags": [
+			"Adventure",
+			"Simulation",
+			"Survival"
+		],
+		"minimal_config": {
+			"os": "Windows 7/8/10",
+			"processor": "Intel Core i3",
+			"memory": "4 GB RAM",
+			"graphics": "Integrated: Intel HD Graphics 4000"
+		},
+		"recommended_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GeForce 700 Series or AMD Radeon Rx 200 Series"
+		},
+		"platforms": [
+			"Windows",
+			"Mac",
+			"Linux",
+			"PlayStation",
+			"Xbox",
+			"Switch"
+		],
+		"comments": [
+			{
+				"name": "BlockMaster",
+				"datetime": "2023-06-10T14:45:00",
+				"commentary": "Endless possibilities for creativity and exploration.",
+				"rating": 4.8
+			},
+			{
+				"name": "Explorer",
+				"datetime": "2023-06-11T09:30:00",
+				"commentary": "Great for building and discovering new landscapes.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 17,
+				"name": "Minecraft: Dungeons",
+				"price": 19.99,
+				"release_date": "2020-05-26"
+			},
+			{
+				"id": 18,
+				"name": "Minecraft: Nether Update",
+				"price": 5.99,
+				"release_date": "2020-06-23"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Galactic Quest",
+		"price": 29.99,
+		"developer": "Stellar Creations",
+		"editor": "Cosmic Games",
+		"release_date": "2023-05-15",
+		"image": "galactic_quest.jpg",
+		"description": "Embark on an epic journey through the cosmos, exploring distant planets and encountering alien civilizations.",
+		"ratings": 4.5,
+		"tags": [
+			"Adventure",
+			"Sci-Fi",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "8 GB RAM",
+			"graphics": "NVIDIA GTX 960"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16 GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpaceExplorer123",
+				"datetime": "2023-05-16T12:30:00",
+				"commentary": "Absolutely stunning graphics and an immersive storyline. A must-play for sci-fi enthusiasts!",
+				"rating": 5.0
+			},
+			{
+				"name": "AlienHunter",
+				"datetime": "2023-05-17T09:45:00",
+				"commentary": "The variety of alien species adds a unique flavor to the game. Thumbs up!",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 1,
+				"name": "Galactic Quest: Outer Realms",
+				"price": 9.99,
+				"release_date": "2023-07-01"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Legends of Eldoria",
+		"price": 59.99,
+		"developer": "Mythic Studios",
+		"editor": "Epic Entertainment",
+		"release_date": "2023-05-20",
+		"image": "legends_of_eldoria.jpg",
+		"description": "Immerse yourself in a fantastical world full of magic and mythical creatures. Legends of Eldoria awaits your epic journey.",
+		"ratings": 4.2,
+		"tags": [
+			"Fantasy",
+			"Adventure",
+			"RPG"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "FantasyExplorer",
+				"datetime": "2023-05-21T18:45:00",
+				"commentary": "The world-building and lore are exceptional!",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 2,
+				"name": "Eldritch Enchantments",
+				"price": 19.99,
+				"release_date": "2023-08-15"
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Cyber Nexus",
+		"price": 39.99,
+		"developer": "TechVortex Games",
+		"editor": "Digital Realms",
+		"release_date": "2023-07-10",
+		"image": "cyber_nexus.jpg",
+		"description": "Step into the neon-soaked streets of a futuristic city. Cyber Nexus offers intense cyberpunk action and hacking challenges.",
+		"ratings": 4.0,
+		"tags": [
+			"Cyberpunk",
+			"Action",
+			"Hack and Slash"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 960"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 2060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4",
+			"Xbox One"
+		],
+		"comments": [
+			{
+				"name": "CyberPirate",
+				"datetime": "2023-07-11T21:15:00",
+				"commentary": "Love the cyberpunk atmosphere and hacking mechanics!",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 3,
+				"name": "Neon Revolution",
+				"price": 14.99,
+				"release_date": "2023-10-01"
+			}
+		]
+	},
+	{
+		"id": 14,
+		"name": "Epic Quests: Lost Realms",
+		"price": 49.99,
+		"developer": "Adventure Forge Studios",
+		"editor": "QuestMasters",
+		"release_date": "2023-09-05",
+		"image": "epic_quests_lost_realms.jpg",
+		"description": "Embark on a mythical journey, battle legendary creatures, and solve intricate puzzles in Epic Quests: Lost Realms.",
+		"ratings": 4.8,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Puzzle"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060 Ti"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "QuestMaster123",
+				"datetime": "2023-09-06T14:00:00",
+				"commentary": "The puzzles are challenging, and the story is captivating!",
+				"rating": 5.0
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 4,
+				"name": "Mystic Realms Expansion",
+				"price": 19.99,
+				"release_date": "2023-12-01"
+			}
+		]
+	},
+	{
+		"id": 15,
+		"name": "Apex Skies",
+		"price": 59.99,
+		"developer": "Skyward Studios",
+		"editor": "Aerial Dynamics",
+		"release_date": "2023-11-15",
+		"image": "apex_skies.jpg",
+		"description": "Soar through the stars, engage in thrilling dogfights, and become the master of space in Apex Skies.",
+		"ratings": 4.6,
+		"tags": [
+			"Flight Simulation",
+			"Action",
+			"Multiplayer",
+			"Space"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SkyPilot87",
+				"datetime": "2023-11-16T19:45:00",
+				"commentary": "The space combat is intense and the graphics are stunning!",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 5,
+				"name": "Skyward Ascension",
+				"price": 24.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 16,
+		"name": "Pixel Quest",
+		"price": 29.99,
+		"developer": "Retro Realms",
+		"editor": "8-Bit Adventures",
+		"release_date": "2023-10-02",
+		"image": "pixel_quest.jpg",
+		"description": "Embark on a nostalgic journey filled with pixelated landscapes, challenging dungeons, and classic 8-bit adventures in Pixel Quest.",
+		"ratings": 4.3,
+		"tags": [
+			"Retro",
+			"Adventure",
+			"Platformer"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "4GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "PixelExplorer",
+				"datetime": "2023-10-03T15:30:00",
+				"commentary": "Brings back the golden age of gaming! Love it!",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 6,
+				"name": "Pixel Odyssey",
+				"price": 9.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 17,
+		"name": "Neon Racer",
+		"price": 34.99,
+		"developer": "Velocity Games",
+		"editor": "Luminous Interactive",
+		"release_date": "2023-08-12",
+		"image": "neon_racer.jpg",
+		"description": "Experience the adrenaline rush of high-speed neon-infused racing in Neon Racer. Customize your ride and dominate the futuristic tracks.",
+		"ratings": 4.2,
+		"tags": [
+			"Racing",
+			"Arcade",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "6GB RAM",
+			"graphics": "NVIDIA GTX 750"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpeedDemon99",
+				"datetime": "2023-08-13T17:00:00",
+				"commentary": "The speed and visuals are mind-blowing! Great racing game.",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 7,
+				"name": "Neon Nitro Pack",
+				"price": 12.99,
+				"release_date": "2023-10-01"
+			}
+		]
+	},
+	{
+		"id": 18,
+		"name": "Mystic Chronicles",
+		"price": 44.99,
+		"developer": "Enchanting Realms",
+		"editor": "Mythical Games",
+		"release_date": "2023-06-28",
+		"image": "mystic_chronicles.jpg",
+		"description": "Unravel the secrets of ancient civilizations, solve magical puzzles, and embark on a mystical journey in Mystic Chronicles.",
+		"ratings": 4.7,
+		"tags": [
+			"Mystery",
+			"Puzzle",
+			"Adventure"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MysticExplorer",
+				"datetime": "2023-06-29T12:45:00",
+				"commentary": "The storyline is captivating, and the puzzles are challenging!",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 8,
+				"name": "Ancient Enchantments",
+				"price": 16.99,
+				"release_date": "2023-09-15"
+			}
+		]
+	},
+	{
+		"id": 19,
+		"name": "Galactic Mercenaries",
+		"price": 49.99,
+		"developer": "Stellar Dynamics",
+		"editor": "Cosmic Ventures",
+		"release_date": "2023-04-20",
+		"image": "galactic_mercenaries.jpg",
+		"description": "Join a team of mercenaries in the vastness of space. Engage in intense battles, complete missions, and become a legend in Galactic Mercenaries.",
+		"ratings": 4.4,
+		"tags": [
+			"Space",
+			"Shooter",
+			"Co-op"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpaceWarrior88",
+				"datetime": "2023-04-21T15:30:00",
+				"commentary": "The cooperative gameplay is fantastic! Love the space battles.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 9,
+				"name": "Stellar Conquest",
+				"price": 19.99,
+				"release_date": "2023-07-01"
+			}
+		]
+	},
+	{
+		"id": 20,
+		"name": "Stealth Ops: Shadow Infiltration",
+		"price": 39.99,
+		"developer": "Silent Strike Studios",
+		"editor": "Covert Games",
+		"release_date": "2023-09-30",
+		"image": "stealth_ops_shadow_infiltration.jpg",
+		"description": "Become a master spy and navigate through covert missions. Use stealth, gadgets, and strategy in Stealth Ops: Shadow Infiltration.",
+		"ratings": 4.6,
+		"tags": [
+			"Stealth",
+			"Action",
+			"Espionage"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 960"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "SilentShadow",
+				"datetime": "2023-10-01T20:15:00",
+				"commentary": "Love the stealth mechanics and the tense atmosphere!",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 10,
+				"name": "Covert",
+				"price": 14.99,
+				"release_date": "2023-11-02"
+			}
+		]
+	},
+	{
+		"id": 21,
+		"name": "Crystal Caverns",
+		"price": 29.99,
+		"developer": "Gemstone Games",
+		"editor": "Underground Ventures",
+		"release_date": "2023-12-10",
+		"image": "crystal_caverns.jpg",
+		"description": "Explore mysterious crystal-filled caverns, solve puzzles, and uncover hidden treasures in the enchanting world of Crystal Caverns.",
+		"ratings": 4.3,
+		"tags": [
+			"Adventure",
+			"Puzzle",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "6GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "TreasureHunterX",
+				"datetime": "2023-12-11T14:30:00",
+				"commentary": "The crystal caverns are visually stunning! Great exploration game.",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 11,
+				"name": "Crystal Secrets Expansion",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Quantum Odyssey",
+		"price": 54.99,
+		"developer": "Quantum Dynamics",
+		"editor": "Cosmic Ventures",
+		"release_date": "2023-11-01",
+		"image": "quantum_odyssey.jpg",
+		"description": "Embark on an epic journey through time and space, solving quantum puzzles and uncovering the mysteries of the universe in Quantum Odyssey.",
+		"ratings": 4.5,
+		"tags": [
+			"Sci-Fi",
+			"Puzzle",
+			"Adventure"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "QuantumExplorer",
+				"datetime": "2023-11-02T18:45:00",
+				"commentary": "Mind-bending puzzles and a captivating storyline! A must-play for sci-fi fans.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 12,
+				"name": "Temporal Conundrum",
+				"price": 19.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 23,
+		"name": "Quantum Realms",
+		"price": 59.99,
+		"developer": "Quantum Studios",
+		"editor": "Reality Dynamics",
+		"release_date": "2023-12-20",
+		"image": "quantum_realms.jpg",
+		"description": "Dive into the quantum multiverse, solve complex puzzles, and explore alternate realities in Quantum Realms.",
+		"ratings": 4.6,
+		"tags": [
+			"Sci-Fi",
+			"Puzzle",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "QuantumExplorerX",
+				"datetime": "2023-12-21T14:00:00",
+				"commentary": "The quantum realm exploration is mind-blowing! Excellent puzzle game.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 23,
+				"name": "Reality Shifter Expansion",
+				"price": 24.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 24,
+		"name": "Tech Titans",
+		"price": 49.99,
+		"developer": "Future Forge Games",
+		"editor": "Digital Realities",
+		"release_date": "2023-10-15",
+		"image": "tech_titans.jpg",
+		"description": "Build and manage a futuristic tech empire, engage in corporate warfare, and dominate the digital world in Tech Titans.",
+		"ratings": 4.4,
+		"tags": [
+			"Strategy",
+			"Simulation",
+			"Management"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechMasterX",
+				"datetime": "2023-10-16T18:30:00",
+				"commentary": "The corporate strategy and tech development are top-notch! Addictive gameplay.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 24,
+				"name": "Digital Dominion",
+				"price": 19.99,
+				"release_date": "2024-02-01"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"name": "Lost Chronicles: Forgotten Realms",
+		"price": 54.99,
+		"developer": "Mystical Tales Interactive",
+		"editor": "Epic Adventures",
+		"release_date": "2023-11-28",
+		"image": "lost_chronicles_forgotten_realms.jpg",
+		"description": "Embark on a quest through forgotten realms, unravel ancient mysteries, and battle mythical creatures in Lost Chronicles: Forgotten Realms.",
+		"ratings": 4.7,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"RPG"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "FantasyQuester",
+				"datetime": "2023-11-29T15:45:00",
+				"commentary": "The storyline and fantasy world are captivating! A true RPG gem.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 25,
+				"name": "Realm of Legends",
+				"price": 24.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 26,
+		"name": "Synthetic Warfare",
+		"price": 39.99,
+		"developer": "SynthCorp Games",
+		"editor": "Cybernetic Realities",
+		"release_date": "2023-09-10",
+		"image": "synthetic_warfare.jpg",
+		"description": "Engage in intense futuristic warfare, deploy advanced weaponry, and dominate the battlefield in Synthetic Warfare.",
+		"ratings": 4.5,
+		"tags": [
+			"Sci-Fi",
+			"Shooter",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 960"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 2060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "WarfareMasterX",
+				"datetime": "2023-09-11T20:00:00",
+				"commentary": "The futuristic warfare elements and graphics are outstanding! Solid multiplayer experience.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 26,
+				"name": "Cybernetic Arsenal",
+				"price": 14.99,
+				"release_date": "2024-01-01"
+			}
+		]
+	},
+	{
+		"id": 27,
+		"name": "Eternal Empires",
+		"price": 49.99,
+		"developer": "Imperial Dynamics",
+		"editor": "Epic Realms",
+		"release_date": "2023-12-05",
+		"image": "eternal_empires.jpg",
+		"description": "Build and lead your civilization through the ages, engage in epic battles, and conquer the world in Eternal Empires.",
+		"ratings": 4.6,
+		"tags": [
+			"Strategy",
+			"Simulation",
+			"Civilization"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "EmpireBuilderX",
+				"datetime": "2023-12-06T16:30:00",
+				"commentary": "The depth of strategy and historical elements are impressive! A must-play for strategy enthusiasts.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 27,
+				"name": "Age of Ascendancy",
+				"price": 19.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 28,
+		"name": "Underground Legends",
+		"price": 44.99,
+		"developer": "Subterra Games",
+		"editor": "Mythical Realities",
+		"release_date": "2023-10-25",
+		"image": "underground_legends.jpg",
+		"description": "Delve into the depths of subterranean realms, face mythical creatures, and uncover ancient secrets in Underground Legends.",
+		"ratings": 4.5,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "UndergroundExplorer",
+				"datetime": "2023-10-26T12:45:00",
+				"commentary": "The underground environments and mythical elements are breathtaking! A hidden gem.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 28,
+				"name": "Subterranean Mysteries",
+				"price": 16.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 29,
+		"name": "Galactic Odyssey: Star Conquest",
+		"price": 54.99,
+		"developer": "Stellar Dynamics",
+		"editor": "Cosmic Ventures",
+		"release_date": "2023-12-15",
+		"image": "galactic_odyssey_star_conquest.jpg",
+		"description": "Embark on a space exploration adventure, trade with alien civilizations, and lead your fleet to victory in Galactic Odyssey: Star Conquest.",
+		"ratings": 4.7,
+		"tags": [
+			"Space",
+			"Strategy",
+			"Simulation"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SpaceExplorerX",
+				"datetime": "2023-12-16T14:00:00",
+				"commentary": "The vastness of space and strategic depth are incredible! A must-play for space enthusiasts.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 29,
+				"name": "Celestial Dominion",
+				"price": 24.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 30,
+		"name": "Mystic Garden Adventures",
+		"price": 29.99,
+		"developer": "Enchanted Playgrounds",
+		"editor": "DreamWorld Studios",
+		"release_date": "2023-11-05",
+		"image": "mystic_garden_adventures.jpg",
+		"description": "Embark on magical quests, meet fantastical creatures, and explore the enchanting world of Mystic Garden Adventures.",
+		"ratings": 4.6,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Children"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "4GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "KidExplorer123",
+				"datetime": "2023-11-06T15:30:00",
+				"commentary": "Perfect for kids! The whimsical world and adventures are delightful.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 30,
+				"name": "Magical Friends Pack",
+				"price": 9.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 31,
+		"name": "Cyber Noir",
+		"price": 69.99,
+		"developer": "Dark Realms Interactive",
+		"editor": "Shadow Ventures",
+		"release_date": "2023-09-28",
+		"image": "cyber_noir.jpg",
+		"description": "Immerse yourself in the gritty cyberpunk underworld, solve noir mysteries, and navigate the dark streets of Cyber Noir.",
+		"ratings": 4.9,
+		"tags": [
+			"Cyberpunk",
+			"Adventure",
+			"Mature"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 2060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "NoirDetectiveX",
+				"datetime": "2023-09-29T19:45:00",
+				"commentary": "Captivating storyline and a true cyberpunk atmosphere! A mature gaming experience.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 31,
+				"name": "Shadow Conspiracy",
+				"price": 29.99,
+				"release_date": "2024-01-01"
+			}
+		]
+	},
+	{
+		"id": 32,
+		"name": "Adventureland Junior",
+		"price": 19.99,
+		"developer": "Whimsical Studios",
+		"editor": "Playful Ventures",
+		"release_date": "2023-10-10",
+		"image": "adventureland_junior.jpg",
+		"description": "An educational and fun adventure for young explorers, filled with colorful characters and engaging activities in Adventureland Junior.",
+		"ratings": 4.5,
+		"tags": [
+			"Educational",
+			"Children",
+			"Adventure"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Celeron",
+			"memory": "2GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Pentium",
+			"memory": "4GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "AdventureKid123",
+				"datetime": "2023-10-11T14:15:00",
+				"commentary": "Perfect for young kids! The educational content is well-balanced with fun adventures.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Release",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 32,
+				"name": "Learning Adventures Pack",
+				"price": 7.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 33,
+		"name": "Pixel Pioneers: Early Frontier",
+		"price": 24.99,
+		"developer": "Retro Realms",
+		"editor": "Pixel Playgrounds",
+		"release_date": "2023-07-08",
+		"image": "pixel_pioneers_early_frontier.jpg",
+		"description": "Embark on an early pixelated adventure, gather resources, and build your frontier in Pixel Pioneers: Early Frontier.",
+		"ratings": 3.9,
+		"tags": [
+			"Pixel Art",
+			"Simulation",
+			"Early Access"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "4GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 660"
+		},
+		"platforms": [
+			"PC",
+			"Mac"
+		],
+		"comments": [
+			{
+				"name": "PixelPioneer123",
+				"datetime": "2023-07-09T10:30:00",
+				"commentary": "Love the pixel art style! However, the early access version lacks content. Looking forward to more updates!",
+				"rating": 3.5
+			},
+			{
+				"name": "EarlyAdventurerX",
+				"datetime": "2023-07-10T14:00:00",
+				"commentary": "Game has potential, but needs more features. Hoping for more polish and additional gameplay elements.",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Early Access",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 33,
+				"name": "Frontier Expansion",
+				"price": 9.99,
+				"release_date": "2023-10-01"
+			}
+		]
+	},
+	{
+		"id": 34,
+		"name": "Cybernetic Arena: Beta Strike",
+		"price": 39.99,
+		"developer": "SynthCorp Games",
+		"editor": "Cybernetic Realities",
+		"release_date": "2023-10-30",
+		"image": "cybernetic_arena_beta_strike.jpg",
+		"description": "Engage in intense futuristic warfare, deploy advanced weaponry, and participate in beta testing in Cybernetic Arena: Beta Strike.",
+		"ratings": 4.2,
+		"tags": [
+			"Sci-Fi",
+			"Shooter",
+			"Beta"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "BetaTesterX",
+				"datetime": "2023-10-31T16:45:00",
+				"commentary": "Exciting beta experience! Some bugs and balance issues, but the core gameplay is promising. Looking forward to improvements.",
+				"rating": 4.0
+			},
+			{
+				"name": "WarfareFanatic",
+				"datetime": "2023-11-01T12:00:00",
+				"commentary": "The beta has potential! However, matchmaking and server stability need improvement.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Beta",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 34,
+				"name": "Beta Elite Pack",
+				"price": 14.99,
+				"release_date": "2024-01-01"
+			}
+		]
+	},
+	{
+		"id": 35,
+		"name": "Dino Discovery: Alpha Expeditions",
+		"price": 19.99,
+		"developer": "Jurassic Journeys",
+		"editor": "Fossil Adventures",
+		"release_date": "2023-11-20",
+		"image": "dino_discovery_alpha_expeditions.jpg",
+		"description": "Embark on an alpha exploration, discover dinosaurs, and contribute to the development of Dino Discovery: Alpha Expeditions.",
+		"ratings": 3.8,
+		"tags": [
+			"Adventure",
+			"Simulation",
+			"Alpha"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "AlphaExplorer123",
+				"datetime": "2023-11-21T14:30:00",
+				"commentary": "Love the concept of exploring with dinosaurs! However, the alpha version is rough with many bugs. Hoping for improvements.",
+				"rating": 3.5
+			},
+			{
+				"name": "DinoEnthusiastX",
+				"datetime": "2023-11-22T11:00:00",
+				"commentary": "The alpha shows potential, but needs optimization and more content. Excited to see future updates.",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Alpha",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 35,
+				"name": "Prehistoric Discoveries Pack",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 36,
+		"name": "Quantum Realms: Galactic Genesis",
+		"price": 59.99,
+		"developer": "Quantum Studios",
+		"editor": "Reality Dynamics",
+		"release_date": "2023-12-15",
+		"image": "quantum_realms_galactic_genesis.jpg",
+		"description": "Embark on an alpha journey through the galactic multiverse, solve quantum puzzles, and shape Quantum Realms: Galactic Genesis.",
+		"ratings": 4.0,
+		"tags": [
+			"Sci-Fi",
+			"Puzzle",
+			"Alpha"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "QuantumExplorerX",
+				"datetime": "2023-12-16T14:00:00",
+				"commentary": "Fascinating concept in alpha! However, some puzzles need refinement, and the storyline is in early stages. Looking forward to updates.",
+				"rating": 3.8
+			},
+			{
+				"name": "QuantumPioneer",
+				"datetime": "2023-12-17T18:30:00",
+				"commentary": "The alpha shows promise, but the game lacks polish and depth. Eagerly awaiting future improvements.",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Alpha",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 36,
+				"name": "Genesis Awakening Expansion",
+				"price": 24.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 37,
+		"name": "Neon Nights: Alpha Rave",
+		"price": 29.99,
+		"developer": "SynthWave Interactive",
+		"editor": "Electro Realities",
+		"release_date": "2023-08-25",
+		"image": "neon_nights_alpha_rave.jpg",
+		"description": "Immerse yourself in a neon-soaked alpha rave experience, dance to electrifying beats, and shape the future of Neon Nights: Alpha Rave.",
+		"ratings": 3.2,
+		"tags": [
+			"Music",
+			"Rhythm",
+			"Alpha"
+		],
+		"minimal_config": {
+			"os": "Windows 10",
+			"processor": "Intel Core i3",
+			"memory": "4GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 660"
+		},
+		"platforms": [
+			"PC",
+			"Mac"
+		],
+		"comments": [
+			{
+				"name": "RaveMasterX",
+				"datetime": "2023-08-26T20:15:00",
+				"commentary": "Disappointing alpha experience. Lackluster visuals and limited music variety. Needs significant improvement.",
+				"rating": 2.5
+			},
+			{
+				"name": "MusicLover123",
+				"datetime": "2023-08-27T12:45:00",
+				"commentary": "Not impressed. The alpha version feels incomplete and lacks the energy expected from a rave game. Hoping for major enhancements.",
+				"rating": 3.0
+			}
+		],
+		"development_state": "Alpha",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 37,
+				"name": "Neon Beats Expansion",
+				"price": 9.99,
+				"release_date": "2023-11-01"
+			}
+		]
+	},
+	{
+		"id": 38,
+		"name": "Rogue Realms: Beta Raiders",
+		"price": 49.99,
+		"developer": "Stealth Dynamics",
+		"editor": "Shadow Ventures",
+		"release_date": "2023-11-30",
+		"image": "rogue_realms_beta_raiders.jpg",
+		"description": "Embark on a beta raiding adventure, sneak through dungeons, and test your skills in Rogue Realms: Beta Raiders.",
+		"ratings": 4.1,
+		"tags": [
+			"Stealth",
+			"Adventure",
+			"Beta"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "BetaRaiderX",
+				"datetime": "2023-12-01T15:30:00",
+				"commentary": "Loving the beta experience! Some balancing issues and minor bugs, but overall a great sneak-and-raid game.",
+				"rating": 4.5
+			},
+			{
+				"name": "StealthGamer123",
+				"datetime": "2023-12-02T11:00:00",
+				"commentary": "The beta shows potential, but some mechanics need refinement. Looking forward to more updates.",
+				"rating": 3.8
+			}
+		],
+		"development_state": "Beta",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 38,
+				"name": "Shadowy Intruders Pack",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 39,
+		"name": "GiggleGolf: Hilarious Fairway Frenzy",
+		"price": 29.99,
+		"developer": "LaughLinks Studios",
+		"editor": "Golf Guffaws",
+		"release_date": "2025-08-10",
+		"image": "gigglegolf_hilarious_fairway_frenzy.jpg",
+		"description": "Tee off for a comedy-filled golf experience in GiggleGolf! Navigate absurd fairways, encounter eccentric golfers, and prepare for outrageous hazards. It's not just a golf game; it's a fairway frenzy of hilarity!",
+		"ratings": 4.5,
+		"tags": [
+			"Comedy",
+			"Sports",
+			"Golf"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "Dedicated Graphics"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "GolfGiggleMasterX",
+				"datetime": "2025-08-11T14:30:00",
+				"commentary": "Fairway Frenzy is a hole-in-one for comedy! The golf antics and hilarious hazards make it the funniest golf game I've ever played.",
+				"rating": 4.6
+			},
+			{
+				"name": "LaughingLinks123",
+				"datetime": "2025-08-12T11:00:00",
+				"commentary": "GiggleGolf is a swingin' good time! The humor adds a fantastic twist to the golf experience. A must-play for both golf enthusiasts and comedy lovers!",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 39,
+				"name": "Fairway Funnies Pack",
+				"price": 8.99,
+				"release_date": "2026-01-01"
+			}
+		]
+	},
+	{
+		"id": 40,
+		"name": "Tech Titans: Corporate Clash",
+		"price": 54.99,
+		"developer": "Future Forge Games",
+		"editor": "Digital Realities",
+		"release_date": "2023-12-01",
+		"image": "tech_titans_corporate_clash.jpg",
+		"description": "Build and manage a futuristic tech empire, engage in corporate warfare, and experience the clash in Tech Titans: Corporate Clash.",
+		"ratings": 2.8,
+		"tags": [
+			"Strategy",
+			"Simulation",
+			"Beta"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechEnthusiastX",
+				"datetime": "2023-12-02T16:30:00",
+				"commentary": "Beta version disappoints. Unbalanced mechanics, unclear objectives, and numerous bugs. Needs significant improvement.",
+				"rating": 2.0
+			},
+			{
+				"name": "StrategyGuru123",
+				"datetime": "2023-12-03T12:00:00",
+				"commentary": "The beta is frustrating. Lack of strategy depth and poor AI. Hoping for major enhancements in future updates.",
+				"rating": 3.0
+			}
+		],
+		"development_state": "Beta",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 40,
+				"name": "Corporate Dominance Pack",
+				"price": 19.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 41,
+		"name": "Celestial Chronicles",
+		"price": 49.99,
+		"developer": "Stellar Dynamics",
+		"editor": "Cosmic Ventures",
+		"release_date": "2023-11-15",
+		"image": "celestial_chronicles.jpg",
+		"description": "Embark on an epic space journey, explore celestial wonders, and uncover the mysteries of the universe in Celestial Chronicles.",
+		"ratings": 4.8,
+		"tags": [
+			"Space",
+			"Adventure",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SpaceExplorerX",
+				"datetime": "2023-11-16T14:00:00",
+				"commentary": "An awe-inspiring journey through space! The released version is polished, and the storyline is captivating.",
+				"rating": 4.9
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 41,
+				"name": "Celestial Expansion",
+				"price": 24.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 42,
+		"name": "Mystic Legends",
+		"price": 39.99,
+		"developer": "Enchanted Realms",
+		"editor": "Mythical Adventures",
+		"release_date": "2023-10-10",
+		"image": "mystic_legends.jpg",
+		"description": "Enter a mythical world, battle legendary creatures, and discover ancient artifacts in Mystic Legends.",
+		"ratings": 4.6,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MythicalWarriorX",
+				"datetime": "2023-10-11T15:30:00",
+				"commentary": "A fantasy masterpiece! Released version is polished with engaging gameplay and stunning visuals.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 42,
+				"name": "Mythical Conquest Pack",
+				"price": 19.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 43,
+		"name": "Apex Tactics",
+		"price": 59.99,
+		"developer": "Strategic Dynamics",
+		"editor": "Warfront Realities",
+		"release_date": "2023-09-05",
+		"image": "apex_tactics.jpg",
+		"description": "Engage in intense tactical warfare, lead your squad to victory, and dominate the battlefield in Apex Tactics.",
+		"ratings": 4.7,
+		"tags": [
+			"Strategy",
+			"Shooter",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "WarCommanderX",
+				"datetime": "2023-09-06T16:45:00",
+				"commentary": "A strategic masterpiece! The released version is well-balanced with intense multiplayer action.",
+				"rating": 4.9
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 43,
+				"name": "Warfront Domination Pack",
+				"price": 29.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 44,
+		"name": "Pixel Paradise",
+		"price": 34.99,
+		"developer": "Retro Realities",
+		"editor": "Pixel Playgrounds",
+		"release_date": "2023-12-01",
+		"image": "pixel_paradise.jpg",
+		"description": "Experience a nostalgic pixelated adventure, solve puzzles, and explore the charming landscapes of Pixel Paradise.",
+		"ratings": 4.5,
+		"tags": [
+			"Pixel Art",
+			"Puzzle",
+			"Adventure"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "PixelExplorer123",
+				"datetime": "2023-12-02T14:30:00",
+				"commentary": "A delightful journey! Pixel Paradise in its released state is a charming and well-crafted adventure.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 44,
+				"name": "Pixel Perfection Pack",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 45,
+		"name": "WhackyWheels: Zany Racing",
+		"price": 24.99,
+		"developer": "Guffaw Motorsports",
+		"editor": "Racing Giggles",
+		"release_date": "2025-10-05",
+		"image": "whackywheels_zany_racing.jpg",
+		"description": "Get ready for a wild ride in WhackyWheels! This zany racing game takes you on a hilarious journey through outrageous tracks, where laughter is the ultimate fuel. Buckle up for a rollercoaster of wacky races!",
+		"ratings": 4.4,
+		"tags": [
+			"Comedy",
+			"Racing",
+			"Arcade"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "Dedicated Graphics"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "RacingGiggleMasterX",
+				"datetime": "2025-10-06T14:30:00",
+				"commentary": "Zany Racing is a blast! The wacky tracks and hilarious power-ups make every race a laugh-out-loud experience. Pure comedy on wheels!",
+				"rating": 4.5
+			},
+			{
+				"name": "LaughingRacer123",
+				"datetime": "2025-10-07T11:00:00",
+				"commentary": "WhackyWheels is the funniest racing game ever. The comedic twists and turns add a whole new level of entertainment to the arcade racing genre.",
+				"rating": 4.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 45,
+				"name": "Zany Expansions Pack",
+				"price": 9.99,
+				"release_date": "2026-03-01"
+			}
+		]
+	},
+	{
+		"id": 46,
+		"name": "Epic Empire: Conquest",
+		"price": 59.99,
+		"developer": "Empire Studios",
+		"editor": "Warfront Realities",
+		"release_date": "2023-09-15",
+		"image": "epic_empire_conquest.jpg",
+		"description": "Lead your army to victory, build a mighty empire, and conquer the lands in Epic Empire: Conquest.",
+		"ratings": 4.6,
+		"tags": [
+			"Strategy",
+			"Simulation",
+			"War"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "WarlordX",
+				"datetime": "2023-09-16T16:45:00",
+				"commentary": "Epic battles and strategic depth! Epic Empire: Conquest in its released state offers an immersive war simulation.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 46,
+				"name": "Empire Ascendance Pack",
+				"price": 29.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 47,
+		"name": "Mecha Mayhem: Cyber Clash",
+		"price": 44.99,
+		"developer": "TechWar Dynamics",
+		"editor": "Digital Realities",
+		"release_date": "2023-11-10",
+		"image": "mecha_mayhem_cyber_clash.jpg",
+		"description": "Pilot futuristic mechs, engage in intense cybernetic battles, and dominate the arena in Mecha Mayhem: Cyber Clash.",
+		"ratings": 4.4,
+		"tags": [
+			"Sci-Fi",
+			"Shooter",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MechaPilotX",
+				"datetime": "2023-11-11T14:30:00",
+				"commentary": "An adrenaline-packed experience! Cyber Clash in its released state offers thrilling mech battles and stunning visuals.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 47,
+				"name": "Cyber Dominator Pack",
+				"price": 14.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 48,
+		"name": "Aetherial Realms",
+		"price": 54.99,
+		"developer": "Ethereal Studios",
+		"editor": "Fantasy Ventures",
+		"release_date": "2023-10-20",
+		"image": "aetherial_realms.jpg",
+		"description": "Enter enchanted realms, wield magical powers, and embark on an epic quest in Aetherial Realms.",
+		"ratings": 4.7,
+		"tags": [
+			"Fantasy",
+			"Adventure",
+			"Magic"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MagicSeekerX",
+				"datetime": "2023-10-21T16:00:00",
+				"commentary": "An enchanting adventure! Aetherial Realms in its released state offers a captivating fantasy world with magical exploration.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 48,
+				"name": "Enchanted Expansion",
+				"price": 19.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 49,
+		"name": "Speedster Showdown",
+		"price": 39.99,
+		"developer": "Velocity Games",
+		"editor": "Racing Realities",
+		"release_date": "2023-08-05",
+		"image": "speedster_showdown.jpg",
+		"description": "Race through high-speed tracks, customize your cars, and compete in the ultimate Speedster Showdown.",
+		"ratings": 4.5,
+		"tags": [
+			"Racing",
+			"Sports",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpeedsterProX",
+				"datetime": "2023-08-06T14:30:00",
+				"commentary": "An adrenaline rush! Speedster Showdown in its released state delivers high-speed excitement and thrilling races.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 49,
+				"name": "Velocity Boost Pack",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 50,
+		"name": "Pirate's Plunder",
+		"price": 44.99,
+		"developer": "Treasure Hunt Games",
+		"editor": "Sea Ventures",
+		"release_date": "2023-07-10",
+		"image": "pirates_plunder.jpg",
+		"description": "Sail the high seas, search for hidden treasures, and engage in epic naval battles in Pirate's Plunder.",
+		"ratings": 4.3,
+		"tags": [
+			"Adventure",
+			"Pirate",
+			"Open World"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "PirateCaptainX",
+				"datetime": "2023-07-11T16:45:00",
+				"commentary": "A swashbuckling adventure! Pirate's Plunder in its released state offers an immersive pirate experience with engaging naval battles.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 50,
+				"name": "Seafarer's Bounty Expansion",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 51,
+		"name": "Chrono Nexus",
+		"price": 49.99,
+		"developer": "Temporal Studios",
+		"editor": "Infinity Realities",
+		"release_date": "2023-11-30",
+		"image": "chrono_nexus.jpg",
+		"description": "Navigate through time, solve temporal puzzles, and unravel the mysteries of Chrono Nexus.",
+		"ratings": 4.2,
+		"tags": [
+			"Puzzle",
+			"Adventure",
+			"Time Travel"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "TimeExplorerX",
+				"datetime": "2023-12-01T14:00:00",
+				"commentary": "Fascinating time-travel puzzles! Chrono Nexus in its released state offers a unique and engaging experience.",
+				"rating": 4.3
+			},
+			{
+				"name": "TemporalDisappoint",
+				"datetime": "2023-12-02T15:30:00",
+				"commentary": "Not as exciting as expected. Repetitive puzzles and the storyline falls flat. Needs improvement.",
+				"rating": 2.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 51,
+				"name": "Temporal Expansion Pack",
+				"price": 19.99,
+				"release_date": "2024-03-15"
+			}
+		]
+	},
+	{
+		"id": 52,
+		"name": "Dragon's Fury",
+		"price": 59.99,
+		"developer": "Mythical Realms",
+		"editor": "Epic Adventures",
+		"release_date": "2023-10-15",
+		"image": "dragons_fury.jpg",
+		"description": "Embark on an epic quest, battle fierce dragons, and uncover ancient secrets in Dragon's Fury.",
+		"ratings": 4.5,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "DragonSlayerX",
+				"datetime": "2023-10-16T16:45:00",
+				"commentary": "An epic fantasy adventure! Dragon's Fury in its released state offers breathtaking battles and a rich fantasy world.",
+				"rating": 4.6
+			},
+			{
+				"name": "DisappointedKnight",
+				"datetime": "2023-10-17T14:30:00",
+				"commentary": "Expected more. The combat system lacks depth, and the dragons don't feel as menacing as they should. Needs improvement.",
+				"rating": 3.0
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 52,
+				"name": "Dragon's Legacy Pack",
+				"price": 24.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 53,
+		"name": "Skyward Squadron",
+		"price": 44.99,
+		"developer": "Aero Dynamics",
+		"editor": "Airborne Realities",
+		"release_date": "2023-11-05",
+		"image": "skyward_squadron.jpg",
+		"description": "Pilot advanced fighter jets, engage in aerial dogfights, and dominate the skies in Skyward Squadron.",
+		"ratings": 4.0,
+		"tags": [
+			"Simulation",
+			"Shooter",
+			"Flight"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "AcePilotX",
+				"datetime": "2023-11-06T14:00:00",
+				"commentary": "An exhilarating flight experience! Skyward Squadron in its released state offers intense dogfights and realistic aircraft controls.",
+				"rating": 4.2
+			},
+			{
+				"name": "DisappointedFlyer",
+				"datetime": "2023-11-07T15:30:00",
+				"commentary": "Disappointing. Controls feel clunky, and the graphics are not as impressive as advertised. Needs improvement.",
+				"rating": 2.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 53,
+				"name": "Aerial Dominance Pack",
+				"price": 14.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 54,
+		"name": "Dark Descent: Shadows of Fear",
+		"price": 54.99,
+		"developer": "Nightmare Realms",
+		"editor": "Horror Ventures",
+		"release_date": "2023-10-30",
+		"image": "dark_descent_shadows_of_fear.jpg",
+		"description": "Descend into darkness, face terrifying creatures, and uncover the chilling secrets in Dark Descent: Shadows of Fear.",
+		"ratings": 3.8,
+		"tags": [
+			"Horror",
+			"Adventure",
+			"Survival"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "HorrorFanaticX",
+				"datetime": "2023-10-31T16:00:00",
+				"commentary": "A chilling experience! Dark Descent in its released state provides a terrifying journey with immersive atmosphere.",
+				"rating": 4.0
+			},
+			{
+				"name": "FearSeeker123",
+				"datetime": "2023-11-01T14:30:00",
+				"commentary": "Disappointingly predictable. The horror elements lack originality, and the scares are few and far between. Needs improvement.",
+				"rating": 2.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 54,
+				"name": "Shadows Unleashed Pack",
+				"price": 19.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 55,
+		"name": "Galactic Warfront",
+		"price": 59.99,
+		"developer": "Cosmic Dynamics",
+		"editor": "Space Ventures",
+		"release_date": "2023-09-20",
+		"image": "galactic_warfront.jpg",
+		"description": "Command massive space fleets, engage in epic interstellar battles, and conquer the galaxy in Galactic Warfront.",
+		"ratings": 3.5,
+		"tags": [
+			"Strategy",
+			"Sci-Fi",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpaceCommanderX",
+				"datetime": "2023-09-21T14:00:00",
+				"commentary": "An ambitious space strategy! Galactic Warfront in its released state offers massive battles and strategic depth.",
+				"rating": 3.8
+			},
+			{
+				"name": "StrategyFanatic",
+				"datetime": "2023-09-22T15:30:00",
+				"commentary": "Unpolished. The multiplayer lacks balance, and the graphics are not up to par with current standards. Needs improvement.",
+				"rating": 2.0
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 55,
+				"name": "Galactic Domination Pack",
+				"price": 29.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 56,
+		"name": "Neon Racer: Future Speed",
+		"price": 34.99,
+		"developer": "Futuristic Games",
+		"editor": "Velocity Realities",
+		"release_date": "2023-12-15",
+		"image": "neon_racer_future_speed.jpg",
+		"description": "Race through neon-lit tracks, customize futuristic cars, and experience high-speed thrills in Neon Racer: Future Speed.",
+		"ratings": 4.1,
+		"tags": [
+			"Racing",
+			"Futuristic",
+			"Multiplayer"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SpeedDemonX",
+				"datetime": "2023-12-16T14:30:00",
+				"commentary": "Fast-paced neon excitement! Neon Racer in its released state delivers an exhilarating racing experience.",
+				"rating": 4.3
+			},
+			{
+				"name": "DisappointedRacer",
+				"datetime": "2023-12-17T15:30:00",
+				"commentary": "Expected more innovation. The gameplay is generic, and the visuals, while flashy, don't compensate for the lack of depth. Needs improvement.",
+				"rating": 2.9
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 56,
+				"name": "Futuristic Velocity Pack",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 57,
+		"name": "Vortex Odyssey",
+		"price": 49.99,
+		"developer": "Nebula Studios",
+		"editor": "Galactic Ventures",
+		"release_date": "2023-12-28",
+		"image": "vortex_odyssey.jpg",
+		"description": "Embark on a space odyssey, navigate through cosmic vortexes, and uncover the secrets of the universe in Vortex Odyssey.",
+		"ratings": 4.5,
+		"tags": [
+			"Space",
+			"Adventure",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "CosmicExplorerX",
+				"datetime": "2023-12-29T14:00:00",
+				"commentary": "A breathtaking journey through the cosmos! Vortex Odyssey in its released state offers stunning visuals and immersive space exploration.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 57,
+				"name": "Cosmic Expansion Pack",
+				"price": 24.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 58,
+		"name": "PixelCrafters: Artistic Adventure",
+		"price": 34.99,
+		"developer": "Creative Realms",
+		"editor": "Pixel Adventures",
+		"release_date": "2023-11-20",
+		"image": "pixelcrafters_artistic_adventure.jpg",
+		"description": "Embark on an artistic journey, explore pixelated landscapes, and unleash your creativity in PixelCrafters: Artistic Adventure.",
+		"ratings": 4.6,
+		"tags": [
+			"Pixel Art",
+			"Adventure",
+			"Creativity"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "PixelArtistX",
+				"datetime": "2023-11-21T14:30:00",
+				"commentary": "A unique and creative experience! PixelCrafters in its released state is a delightful adventure for artists and gamers alike.",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 58,
+				"name": "Artistic Expansion Pack",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 59,
+		"name": "Future Frontiers: Sci-Tech Simulator",
+		"price": 59.99,
+		"developer": "Tech Frontier Labs",
+		"editor": "Sci-Tech Realities",
+		"release_date": "2023-09-15",
+		"image": "future_frontiers_sci_tech_simulator.jpg",
+		"description": "Simulate the future of science and technology, develop cutting-edge innovations, and shape the world in Future Frontiers.",
+		"ratings": 4.4,
+		"tags": [
+			"Simulation",
+			"Sci-Fi",
+			"Technology"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechInnovatorX",
+				"datetime": "2023-09-16T16:45:00",
+				"commentary": "A simulator for tech enthusiasts! Future Frontiers in its released state provides an in-depth look into the exciting future of technology.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 59,
+				"name": "Tech Expansion Pack",
+				"price": 29.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 60,
+		"name": "Mystic Quest: Enchanted Realms",
+		"price": 44.99,
+		"developer": "Fantasy Realms",
+		"editor": "Mythical Adventures",
+		"release_date": "2023-07-25",
+		"image": "mystic_quest_enchanted_realms.jpg",
+		"description": "Embark on a mythical quest, battle legendary creatures, and explore enchanted realms in this epic fantasy adventure.",
+		"ratings": 4.3,
+		"tags": [
+			"Adventure",
+			"Fantasy",
+			"Magic"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "MythicalWarriorX",
+				"datetime": "2023-07-26T14:30:00",
+				"commentary": "An epic journey! Mystic Quest in its released state offers a captivating fantasy world with challenging battles and magical exploration.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 60,
+				"name": "Mythical Expansion Pack",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 61,
+		"name": "Apex Racer: Extreme Velocity",
+		"price": 39.99,
+		"developer": "Velocity Dynamics",
+		"editor": "Racing Realities",
+		"release_date": "2023-08-18",
+		"image": "apex_racer_extreme_velocity.jpg",
+		"description": "Experience extreme velocity, race on dynamic tracks, and become the Apex Racer in this adrenaline-pumping racing game.",
+		"ratings": 4.6,
+		"tags": [
+			"Racing",
+			"Sports",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3070"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SpeedDemonX",
+				"datetime": "2023-08-19T14:30:00",
+				"commentary": "A high-speed thrill! Apex Racer in its released state delivers intense races and a rush of adrenaline.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 61,
+				"name": "Velocity Booster Pack",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 62,
+		"name": "NeoRealm: Virtual Odyssey",
+		"price": 49.99,
+		"developer": "Virtual Realities",
+		"editor": "Digital Ventures",
+		"release_date": "2023-10-28",
+		"image": "neorealm_virtual_odyssey.jpg",
+		"description": "Immerse yourself in a virtual odyssey, explore futuristic landscapes, and experience the limitless possibilities of NeoRealm.",
+		"ratings": 4.4,
+		"tags": [
+			"Virtual Reality",
+			"Adventure",
+			"Simulation"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation VR"
+		],
+		"comments": [
+			{
+				"name": "VRExplorerX",
+				"datetime": "2023-10-29T14:00:00",
+				"commentary": "Mind-blowing experience! NeoRealm in its released state provides an incredible journey into the virtual realm.",
+				"rating": 4.6
+			},
+			{
+				"name": "TechEnthusiast123",
+				"datetime": "2023-10-30T11:30:00",
+				"commentary": "Graphics are impressive, but the controls need refinement. A bit disorienting at times. Room for improvement.",
+				"rating": 3.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 62,
+				"name": "Virtual Expansion Pack",
+				"price": 24.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 63,
+		"name": "Wild West Outlaws: Frontier Justice",
+		"price": 54.99,
+		"developer": "Western Realms",
+		"editor": "Outlaw Ventures",
+		"release_date": "2023-06-12",
+		"image": "wild_west_outlaws_frontier_justice.jpg",
+		"description": "Live the life of an outlaw, engage in gunfights, and experience the rugged adventures of the Wild West.",
+		"ratings": 4.2,
+		"tags": [
+			"Action",
+			"Adventure",
+			"Western"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "OutlawFanX",
+				"datetime": "2023-06-13T14:30:00",
+				"commentary": "An authentic Wild West experience! Wild West Outlaws in its released state captures the essence of the frontier.",
+				"rating": 4.4
+			},
+			{
+				"name": "Gunslinger123",
+				"datetime": "2023-06-14T10:00:00",
+				"commentary": "Controls are clunky, and the storyline is cliché. Expected more from a Wild West game. Disappointed.",
+				"rating": 3.0
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 63,
+				"name": "Frontier Expansion Pack",
+				"price": 19.99,
+				"release_date": "2024-01-01"
+			}
+		]
+	},
+	{
+		"id": 64,
+		"name": "Tech Tycoon: Corporate Conquest",
+		"price": 59.99,
+		"developer": "Innovate Dynamics",
+		"editor": "Tech Ventures",
+		"release_date": "2023-09-05",
+		"image": "tech_tycoon_corporate_conquest.jpg",
+		"description": "Build a tech empire, develop cutting-edge products, and dominate the business world in Tech Tycoon.",
+		"ratings": 4.7,
+		"tags": [
+			"Simulation",
+			"Strategy",
+			"Business"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechMagnateX",
+				"datetime": "2023-09-06T16:45:00",
+				"commentary": "An addicting business simulator! Tech Tycoon in its released state offers a challenging and strategic corporate conquest.",
+				"rating": 4.8
+			},
+			{
+				"name": "BusinessGuru123",
+				"datetime": "2023-09-07T12:30:00",
+				"commentary": "The microtransactions are excessive. It feels more like pay-to-win. Needs better balance.",
+				"rating": 3.2
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 64,
+				"name": "Corporate Expansion Pack",
+				"price": 29.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 65,
+		"name": "Magic May Bend: Spellbound Wars",
+		"price": 44.99,
+		"developer": "Mystic Realms",
+		"editor": "Fantasy Ventures",
+		"release_date": "2023-12-05",
+		"image": "magic_may_bend_spellbound_wars.jpg",
+		"description": "Master the arcane arts, engage in magical battles, and become the ultimate sorcerer in Magic May Bend: Spellbound Wars.",
+		"ratings": 4.3,
+		"tags": [
+			"Magic",
+			"Action",
+			"Fantasy"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MagicMasterX",
+				"datetime": "2023-12-06T14:30:00",
+				"commentary": "Spellbinding battles! Magic May Bend in its released state offers a visually stunning magical experience.",
+				"rating": 4.4
+			},
+			{
+				"name": "SpellSlinger123",
+				"datetime": "2023-12-07T11:00:00",
+				"commentary": "Controls are a bit complicated, and the learning curve is steep. Fun but requires patience.",
+				"rating": 3.9
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 65,
+				"name": "Arcane Expansion Pack",
+				"price": 14.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 66,
+		"name": "Dreamscape: Imagination Unleashed",
+		"price": 39.99,
+		"developer": "Fantasy Realities",
+		"editor": "Dream Ventures",
+		"release_date": "2023-08-28",
+		"image": "dreamscape_imagination_unleashed.jpg",
+		"description": "Unleash your creativity, explore fantastical realms, and experience the limitless possibilities of Dreamscape.",
+		"ratings": 4.5,
+		"tags": [
+			"Adventure",
+			"Exploration",
+			"Fantasy"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "DreamWeaverX",
+				"datetime": "2023-08-29T14:00:00",
+				"commentary": "Absolutely loved the diverse landscapes and imaginative world. Dreamscape allows me to create my dream adventures!",
+				"rating": 4.7
+			},
+			{
+				"name": "ImaginationExplorer",
+				"datetime": "2023-08-30T11:30:00",
+				"commentary": "The attention to detail in the fantasy realms is breathtaking. Each corner feels like a new discovery. Well done!",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 66,
+				"name": "Imagination Expansion Pack",
+				"price": 19.99,
+				"release_date": "2024-02-01"
+			}
+		]
+	},
+	{
+		"id": 67,
+		"name": "Galactic Commanders: Space Strategy",
+		"price": 49.99,
+		"developer": "Starfront Studios",
+		"editor": "Galactic Realms",
+		"release_date": "2023-07-15",
+		"image": "galactic_commanders_space_strategy.jpg",
+		"description": "Command vast fleets, conquer star systems, and dominate the galaxy in this epic space strategy game.",
+		"ratings": 4.4,
+		"tags": [
+			"Strategy",
+			"Space",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "GalacticStrategistX",
+				"datetime": "2023-07-16T16:45:00",
+				"commentary": "The strategic depth is impressive, and the visuals of interstellar battles are jaw-dropping. A must-play for space strategy fans!",
+				"rating": 4.6
+			},
+			{
+				"name": "SpaceConqueror123",
+				"datetime": "2023-07-17T12:30:00",
+				"commentary": "The scale of space battles is incredible! Loved the variety of ships and strategic options. Fantastic job!",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 67,
+				"name": "Galactic Conquest Pack",
+				"price": 24.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 68,
+		"name": "DreamRacer: Fantasy Speedways",
+		"price": 29.99,
+		"developer": "Velocity Dreams",
+		"editor": "Fantasy Realities",
+		"release_date": "2023-10-02",
+		"image": "dreamracer_fantasy_speedways.jpg",
+		"description": "Race through enchanted landscapes, experience magical speedways, and become the champion of DreamRacer.",
+		"ratings": 4.3,
+		"tags": [
+			"Racing",
+			"Fantasy",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "SpeedsterX",
+				"datetime": "2023-10-03T14:30:00",
+				"commentary": "The fantastical tracks are exhilarating! DreamRacer offers a unique and visually stunning racing experience.",
+				"rating": 4.4
+			},
+			{
+				"name": "FantasyRacer123",
+				"datetime": "2023-10-04T11:00:00",
+				"commentary": "The incorporation of magic in the races adds an extra layer of excitement. Loved the creativity in track design!",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 68,
+				"name": "Fantasy Speed Pack",
+				"price": 14.99,
+				"release_date": "2024-01-01"
+			}
+		]
+	},
+	{
+		"id": 69,
+		"name": "TechDefenders: Cybernetic Warfare",
+		"price": 54.99,
+		"developer": "Cyberfront Dynamics",
+		"editor": "Tech Realities",
+		"release_date": "2023-11-30",
+		"image": "techdefenders_cybernetic_warfare.jpg",
+		"description": "Defend the digital realm, deploy cybernetic warriors, and engage in futuristic warfare in TechDefenders.",
+		"ratings": 4.6,
+		"tags": [
+			"Action",
+			"Strategy",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechWarriorX",
+				"datetime": "2023-12-01T16:45:00",
+				"commentary": "The cybernetic warfare aspect is brilliantly executed! Loved the strategy involved in defending against digital threats.",
+				"rating": 4.7
+			},
+			{
+				"name": "DigitalDefender123",
+				"datetime": "2023-12-02T12:30:00",
+				"commentary": "The variety of cybernetic units and their abilities make the gameplay both challenging and enjoyable. Great job!",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 69,
+				"name": "Cybernetic Warfare Pack",
+				"price": 29.99,
+				"release_date": "2024-02-15"
+			}
+		]
+	},
+	{
+		"id": 70,
+		"name": "PixelQuest: Retro Adventure",
+		"price": 34.99,
+		"developer": "Retro Realms",
+		"editor": "Pixel Ventures",
+		"release_date": "2023-05-20",
+		"image": "pixelquest_retro_adventure.jpg",
+		"description": "Embark on a nostalgic journey, solve pixelated puzzles, and experience the charm of classic gaming in PixelQuest.",
+		"ratings": 4.2,
+		"tags": [
+			"Pixel Art",
+			"Adventure",
+			"Puzzle"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "PixelAdventurerX",
+				"datetime": "2023-05-21T14:30:00",
+				"commentary": "A blast from the past! PixelQuest perfectly captures the essence of retro gaming. The pixel art is delightful!",
+				"rating": 4.3
+			},
+			{
+				"name": "RetroGamer123",
+				"datetime": "2023-05-22T10:00:00",
+				"commentary": "The level design is reminiscent of classic platformers. Enjoyed the challenge and the nostalgic feel.",
+				"rating": 4.0
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 70,
+				"name": "Retro Expansion Pack",
+				"price": 14.99,
+				"release_date": "2023-09-01"
+			}
+		]
+	},
+	{
+		"id": 71,
+		"name": "DarkHorizon: Galactic Desolation",
+		"price": 49.99,
+		"developer": "Abyss Studios",
+		"editor": "Cosmic Realms",
+		"release_date": "2023-09-25",
+		"image": "darkhorizon_galactic_desolation.jpg",
+		"description": "Embark on a perilous journey through the cosmos, face cosmic horrors, and survive in DarkHorizon's Galactic Desolation.",
+		"ratings": 3.2,
+		"tags": [
+			"Survival",
+			"Horror",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "CosmicExplorerX",
+				"datetime": "2023-09-26T14:00:00",
+				"commentary": "The concept is intriguing, but the execution is lacking. DarkHorizon feels repetitive, and the horror elements fall flat.",
+				"rating": 2.8
+			},
+			{
+				"name": "Survivor123",
+				"datetime": "2023-09-27T11:30:00",
+				"commentary": "Buggy and unpolished. The survival mechanics are frustrating, and the horror elements are more frustrating than scary.",
+				"rating": 3.0
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 71,
+				"name": "Desolation Expansion Pack",
+				"price": 14.99,
+				"release_date": "2024-02-01"
+			}
+		]
+	},
+	{
+		"id": 72,
+		"name": "PowerUp! Cybernetic Brawlers",
+		"price": 39.99,
+		"developer": "TechBrawl Dynamics",
+		"editor": "Brawler Ventures",
+		"release_date": "2023-11-10",
+		"image": "powerup_cybernetic_brawlers.jpg",
+		"description": "Unleash cybernetic powers, engage in high-octane brawls, and become the ultimate brawler in PowerUp!",
+		"ratings": 2.9,
+		"tags": [
+			"Action",
+			"Fighting",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "BrawlMasterX",
+				"datetime": "2023-11-11T16:45:00",
+				"commentary": "Disappointing. The combat lacks depth, and the cybernetic powers feel unbalanced. Not the brawler I was hoping for.",
+				"rating": 2.5
+			},
+			{
+				"name": "TechFanatic123",
+				"datetime": "2023-11-12T12:30:00",
+				"commentary": "Controls are clunky, and the graphics are subpar. PowerUp! is a missed opportunity for a great cybernetic brawler.",
+				"rating": 3.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 72,
+				"name": "Cyber Brawl Pack",
+				"price": 9.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 73,
+		"name": "FantasyFarms: Agricultural Chaos",
+		"price": 29.99,
+		"developer": "FarmFantasy Studios",
+		"editor": "Chaos Ventures",
+		"release_date": "2023-12-18",
+		"image": "fantasyfarms_agricultural_chaos.jpg",
+		"description": "Manage a fantasy farm, grow magical crops, and face chaotic challenges in FantasyFarms: Agricultural Chaos.",
+		"ratings": 3.1,
+		"tags": [
+			"Simulation",
+			"Farming",
+			"Fantasy"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "NVIDIA GTX 1050"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "FarmSimulatorX",
+				"datetime": "2023-12-19T14:30:00",
+				"commentary": "Not what I expected. The chaos elements make managing the farm more frustrating than fun. Needs better balance.",
+				"rating": 2.9
+			},
+			{
+				"name": "MagicalHarvester123",
+				"datetime": "2023-12-20T11:00:00",
+				"commentary": "The concept is interesting, but the execution is lacking. The chaotic challenges feel more like obstacles than fun additions.",
+				"rating": 3.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 73,
+				"name": "Chaos Expansion Pack",
+				"price": 14.99,
+				"release_date": "2024-05-01"
+			}
+		]
+	},
+	{
+		"id": 74,
+		"name": "VirtualHacker: Cyber Intrusion",
+		"price": 44.99,
+		"developer": "HackNet Dynamics",
+		"editor": "Virtual Realities",
+		"release_date": "2023-10-08",
+		"image": "virtualhacker_cyber_intrusion.jpg",
+		"description": "Become a virtual hacker, infiltrate secure systems, and navigate through a digital world in VirtualHacker: Cyber Intrusion.",
+		"ratings": 3.0,
+		"tags": [
+			"Simulation",
+			"Puzzle",
+			"Cyberpunk"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "HackMasterX",
+				"datetime": "2023-10-09T16:45:00",
+				"commentary": "The hacking mechanics are tedious, and the puzzles lack variety. VirtualHacker fails to capture the excitement of cyber infiltration.",
+				"rating": 2.7
+			},
+			{
+				"name": "CyberExplorer123",
+				"datetime": "2023-10-10T12:30:00",
+				"commentary": "The virtual world lacks immersion, and the storyline is uninspiring. Expected more from a cyberpunk hacking game.",
+				"rating": 3.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 74,
+				"name": "Intrusion Expansion Pack",
+				"price": 9.99,
+				"release_date": "2024-01-15"
+			}
+		]
+	},
+	{
+		"id": 75,
+		"name": "SpeedRush: Crash and Burn",
+		"price": 54.99,
+		"developer": "Racing Realms",
+		"editor": "Velocity Ventures",
+		"release_date": "2023-07-02",
+		"image": "speedrush_crash_and_burn.jpg",
+		"description": "Race through intense tracks, experience high-speed crashes, and strive for victory in SpeedRush: Crash and Burn.",
+		"ratings": 3.4,
+		"tags": [
+			"Racing",
+			"Action",
+			"Arcade"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "RacingFanX",
+				"datetime": "2023-07-03T14:00:00",
+				"commentary": "The crashes are entertaining, but the controls are unresponsive. SpeedRush feels more frustrating than exhilarating.",
+				"rating": 3.2
+			},
+			{
+				"name": "SpeedDemon123",
+				"datetime": "2023-07-04T11:30:00",
+				"commentary": "The arcade-style racing is decent, but the AI opponents are too aggressive. The constant crashes ruin the experience.",
+				"rating": 3.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 75,
+				"name": "Crash and Burn Pack",
+				"price": 19.99,
+				"release_date": "2024-03-01"
+			}
+		]
+	},
+	{
+		"id": 76,
+		"name": "TechTycoon 2: Corporate Domination",
+		"price": 59.99,
+		"developer": "TechMagnate Studios",
+		"editor": "Business Ventures",
+		"release_date": "2024-08-15",
+		"image": "techtycoon2_corporate_domination.jpg",
+		"description": "Build your tech empire, conquer the business world, and dominate the corporate landscape in TechTycoon 2.",
+		"ratings": 4.9,
+		"tags": [
+			"Simulation",
+			"Strategy",
+			"Business"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "BusinessGuruX",
+				"datetime": "2024-08-16T16:45:00",
+				"commentary": "TechTycoon 2 improves upon its predecessor in every way! The new features and challenges make corporate domination even more thrilling.",
+				"rating": 4.9
+			},
+			{
+				"name": "TycoonMaster123",
+				"datetime": "2024-08-17T12:30:00",
+				"commentary": "A worthy sequel. The expanded business strategies add depth, and the competitive AI keeps the game engaging. Fantastic job!",
+				"rating": 4.8
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 76,
+				"name": "Global Expansion Pack",
+				"price": 29.99,
+				"release_date": "2025-02-15"
+			}
+		]
+	},
+	{
+		"id": 77,
+		"name": "Magic May Bend 2: Enchanted Battles",
+		"price": 49.99,
+		"developer": "Mystic Realms",
+		"editor": "Fantasy Ventures",
+		"release_date": "2024-12-10",
+		"image": "magicmaybend2_enchanted_battles.jpg",
+		"description": "Return to the world of magic, engage in epic battles, and unleash new spells in Magic May Bend 2: Enchanted Battles.",
+		"ratings": 4.5,
+		"tags": [
+			"Magic",
+			"Action",
+			"Fantasy"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "MagicMasterX",
+				"datetime": "2024-12-11T14:30:00",
+				"commentary": "Enchanted Battles takes the magic to new heights! The expanded spell system adds a layer of strategy, making battles even more captivating.",
+				"rating": 4.6
+			},
+			{
+				"name": "SpellSlinger123",
+				"datetime": "2024-12-12T11:00:00",
+				"commentary": "The sequel maintains the charm of the original while introducing exciting new magical elements. The battles are more intense and visually stunning.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 77,
+				"name": "Enchanted Expansion Pack",
+				"price": 19.99,
+				"release_date": "2025-01-15"
+			}
+		]
+	},
+	{
+		"id": 78,
+		"name": "DreamRacer 2: Beyond Fantasy",
+		"price": 39.99,
+		"developer": "Velocity Dreams",
+		"editor": "Fantasy Realities",
+		"release_date": "2024-09-25",
+		"image": "dreamracer2_beyond_fantasy.jpg",
+		"description": "Embark on a new fantasy racing adventure, experience magical speedways, and become the champion in DreamRacer 2: Beyond Fantasy.",
+		"ratings": 4.3,
+		"tags": [
+			"Racing",
+			"Fantasy",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "SpeedsterX",
+				"datetime": "2024-09-26T14:30:00",
+				"commentary": "Beyond Fantasy adds new dimensions to the racing experience. The tracks are more imaginative, and the fantasy elements are captivating.",
+				"rating": 4.4
+			},
+			{
+				"name": "FantasyRacer123",
+				"datetime": "2024-09-27T11:00:00",
+				"commentary": "DreamRacer 2 builds upon the success of the original with even more fantastical races and creative track designs. Truly a sequel done right!",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 78,
+				"name": "Fantasy Odyssey Pack",
+				"price": 14.99,
+				"release_date": "2025-01-01"
+			}
+		]
+	},
+	{
+		"id": 79,
+		"name": "TechDefenders 2: Cyber Warlords",
+		"price": 59.99,
+		"developer": "Cyberfront Dynamics",
+		"editor": "Tech Realities",
+		"release_date": "2024-12-01",
+		"image": "techdefenders2_cyber_warlords.jpg",
+		"description": "Enter the next phase of cyber warfare, command powerful warlords, and defend the digital realm in TechDefenders 2: Cyber Warlords.",
+		"ratings": 4.6,
+		"tags": [
+			"Action",
+			"Strategy",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "TechWarlordX",
+				"datetime": "2024-12-02T16:45:00",
+				"commentary": "Cyber Warlords elevates the strategic depth of TechDefenders. Commanding warlords adds a new layer of tactics to the game. Excellent sequel!",
+				"rating": 4.7
+			},
+			{
+				"name": "DigitalCommander123",
+				"datetime": "2024-12-03T12:30:00",
+				"commentary": "The sequel builds upon the strengths of the original and introduces innovative features. The cyber warlords bring a fresh dynamic to the gameplay.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 79,
+				"name": "Warlord's Legacy Pack",
+				"price": 29.99,
+				"release_date": "2025-05-15"
+			}
+		]
+	},
+	{
+		"id": 80,
+		"name": "PixelQuest 2: Beyond Pixels",
+		"price": 44.99,
+		"developer": "Retro Realms",
+		"editor": "Pixel Ventures",
+		"release_date": "2024-06-15",
+		"image": "pixelquest2_beyond_pixels.jpg",
+		"description": "Embark on a new pixelated adventure, explore realms beyond pixels, and uncover mysteries in PixelQuest 2: Beyond Pixels.",
+		"ratings": 4.4,
+		"tags": [
+			"Pixel Art",
+			"Adventure",
+			"Puzzle"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "PixelExplorerX",
+				"datetime": "2024-06-16T14:00:00",
+				"commentary": "Beyond Pixels expands the pixelated universe with new challenges and mysteries. The nostalgic feel is retained with a fresh twist.",
+				"rating": 4.5
+			},
+			{
+				"name": "RetroMystery123",
+				"datetime": "2024-06-17T11:30:00",
+				"commentary": "A delightful sequel that captures the charm of the original while introducing exciting new pixelated realms to explore. PixelQuest fans will love it!",
+				"rating": 4.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 80,
+				"name": "Mystic Pixel Pack",
+				"price": 14.99,
+				"release_date": "2025-02-01"
+			}
+		]
+	},
+	{
+		"id": 81,
+		"name": "GalacticExplorers: Celestial Odyssey",
+		"price": 59.99,
+		"developer": "StarQuest Studios",
+		"editor": "Galactic Ventures",
+		"release_date": "2024-10-20",
+		"image": "galacticexplorers_celestial_odyssey.jpg",
+		"description": "Embark on an epic space journey, explore celestial wonders, and uncover the mysteries of the galaxy in GalacticExplorers: Celestial Odyssey.",
+		"ratings": 4.8,
+		"tags": [
+			"Sci-Fi",
+			"Adventure",
+			"Exploration"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i9",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3080"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SpaceExplorerX",
+				"datetime": "2024-10-21T16:45:00",
+				"commentary": "Celestial Odyssey is a mesmerizing journey through space. The visuals are stunning, and the sense of exploration is unparalleled.",
+				"rating": 4.9
+			},
+			{
+				"name": "GalacticPioneer123",
+				"datetime": "2024-10-22T12:30:00",
+				"commentary": "The game captures the vastness of space beautifully. Each celestial body feels unique, and the sense of discovery is exhilarating.",
+				"rating": 4.7
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 81,
+				"name": "Odyssey Expansion Pack",
+				"price": 24.99,
+				"release_date": "2025-03-15"
+			}
+		]
+	},
+	{
+		"id": 82,
+		"name": "MysticMages: Arcane Conquest",
+		"price": 49.99,
+		"developer": "Enchanting Realms",
+		"editor": "Mystical Ventures",
+		"release_date": "2024-05-10",
+		"image": "mysticmages_arcane_conquest.jpg",
+		"description": "Master the arcane arts, lead magical armies, and conquer mystical realms in MysticMages: Arcane Conquest.",
+		"ratings": 4.6,
+		"tags": [
+			"Strategy",
+			"Magic",
+			"Fantasy"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "MageLordX",
+				"datetime": "2024-05-11T14:30:00",
+				"commentary": "Arcane Conquest is a strategic masterpiece. The magical battles are intense, and the variety of spells adds depth to the gameplay.",
+				"rating": 4.7
+			},
+			{
+				"name": "MysticStrategist123",
+				"datetime": "2024-05-12T11:00:00",
+				"commentary": "The combination of magic and strategy is executed flawlessly. MysticMages offers a captivating experience for fans of both genres.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 82,
+				"name": "Realm Conqueror Pack",
+				"price": 19.99,
+				"release_date": "2024-10-01"
+			}
+		]
+	},
+	{
+		"id": 83,
+		"name": "ChronoQuest: Time Chronicles",
+		"price": 54.99,
+		"developer": "Temporal Realms",
+		"editor": "Chrono Ventures",
+		"release_date": "2024-08-01",
+		"image": "chronoquest_time_chronicles.jpg",
+		"description": "Embark on a time-traveling adventure, solve temporal puzzles, and unravel the mysteries of the ages in ChronoQuest: Time Chronicles.",
+		"ratings": 4.5,
+		"tags": [
+			"Adventure",
+			"Puzzle",
+			"Time Travel"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "32GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "TimeTravelerX",
+				"datetime": "2024-08-02T14:30:00",
+				"commentary": "Time Chronicles is a mind-bending journey through history. The temporal puzzles are challenging, and the storytelling is captivating.",
+				"rating": 4.6
+			},
+			{
+				"name": "PuzzleMaster123",
+				"datetime": "2024-08-03T11:00:00",
+				"commentary": "The time-traveling concept adds a unique twist to the adventure genre. ChronoQuest offers a fresh and engaging experience.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 83,
+				"name": "Temporal Explorer Pack",
+				"price": 14.99,
+				"release_date": "2025-01-15"
+			}
+		]
+	},
+	{
+		"id": 84,
+		"name": "SurvivalFrontier: Wild Expedition",
+		"price": 39.99,
+		"developer": "Frontier Studios",
+		"editor": "Wild Ventures",
+		"release_date": "2024-11-15",
+		"image": "survivalfrontier_wild_expedition.jpg",
+		"description": "Navigate through untamed landscapes, gather resources, and survive the challenges of the wild in SurvivalFrontier: Wild Expedition.",
+		"ratings": 4.3,
+		"tags": [
+			"Survival",
+			"Adventure",
+			"Open World"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SurvivalistX",
+				"datetime": "2024-11-16T14:30:00",
+				"commentary": "Wild Expedition provides a true survival experience. The open-world design and dynamic weather make every expedition feel unique.",
+				"rating": 4.4
+			},
+			{
+				"name": "WildExplorer123",
+				"datetime": "2024-11-17T11:00:00",
+				"commentary": "The game captures the essence of survival in the wild. Every decision matters, and the sense of discovery keeps you hooked.",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 84,
+				"name": "Wilderness Expansion Pack",
+				"price": 19.99,
+				"release_date": "2025-05-01"
+			}
+		]
+	},
+	{
+		"id": 85,
+		"name": "VirtuaSoccer: Galactic Championship",
+		"price": 49.99,
+		"developer": "Galactic Games",
+		"editor": "Soccer Ventures",
+		"release_date": "2024-04-05",
+		"image": "virtuasoccer_galactic_championship.jpg",
+		"description": "Compete in an intergalactic soccer tournament, assemble your dream team, and aim for victory in VirtuaSoccer: Galactic Championship.",
+		"ratings": 4.7,
+		"tags": [
+			"Sports",
+			"Soccer",
+			"Galactic"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "SoccerStarX",
+				"datetime": "2024-04-06T14:00:00",
+				"commentary": "Galactic Championship brings a cosmic twist to soccer. The intergalactic teams and futuristic stadiums create a visually stunning experience.",
+				"rating": 4.8
+			},
+			{
+				"name": "SoccerStrategist123",
+				"datetime": "2024-04-07T11:30:00",
+				"commentary": "The soccer gameplay is solid, and the addition of galactic elements adds a fun and unique flavor to the sports genre.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 85,
+				"name": "Galactic Teams Pack",
+				"price": 14.99,
+				"release_date": "2024-09-01"
+			}
+		]
+	},
+	{
+		"id": 86,
+		"name": "QuantumPuzzle: Mind Bender",
+		"price": 29.99,
+		"developer": "Quantum Dynamics",
+		"editor": "Puzzle Ventures",
+		"release_date": "2024-02-10",
+		"image": "quantumpuzzle_mind_bender.jpg",
+		"description": "Dive into a world of quantum puzzles, solve mind-bending challenges, and unravel the secrets of QuantumPuzzle: Mind Bender.",
+		"ratings": 4.5,
+		"tags": [
+			"Puzzle",
+			"Adventure",
+			"Sci-Fi"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "PuzzleMasterX",
+				"datetime": "2024-02-11T14:30:00",
+				"commentary": "Mind Bender lives up to its name. The quantum puzzles are incredibly challenging and provide a unique twist to the puzzle genre.",
+				"rating": 4.6
+			},
+			{
+				"name": "QuantumSolver123",
+				"datetime": "2024-02-12T11:00:00",
+				"commentary": "The integration of quantum mechanics into the puzzles adds a fascinating layer of complexity. Puzzle enthusiasts will love the challenge.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 86,
+				"name": "Quantum Enigma Pack",
+				"price": 9.99,
+				"release_date": "2024-06-01"
+			}
+		]
+	},
+	{
+		"id": 87,
+		"name": "ZombieSurvival: Undead Apocalypse",
+		"price": 39.99,
+		"developer": "Survivalist Games",
+		"editor": "Undead Ventures",
+		"release_date": "2024-09-01",
+		"image": "zombiesurvival_undead_apocalypse.jpg",
+		"description": "Face the challenges of an undead world, scavenge for resources, and survive the relentless Undead Apocalypse in ZombieSurvival.",
+		"ratings": 4.2,
+		"tags": [
+			"Survival",
+			"Horror",
+			"Zombies"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SurvivorX",
+				"datetime": "2024-09-02T14:30:00",
+				"commentary": "Undead Apocalypse captures the tension of a zombie-infested world. The survival mechanics and zombie AI make every encounter intense.",
+				"rating": 4.3
+			},
+			{
+				"name": "ZombieHunter123",
+				"datetime": "2024-09-03T11:00:00",
+				"commentary": "The horror elements combined with the survival mechanics create a gripping experience. A must-play for zombie genre enthusiasts.",
+				"rating": 4.1
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 87,
+				"name": "Apocalyptic Gear Pack",
+				"price": 14.99,
+				"release_date": "2025-02-15"
+			}
+		]
+	},
+	{
+		"id": 88,
+		"name": "RocketRush: Galactic Grand Prix",
+		"price": 49.99,
+		"developer": "Cosmic Racing Studios",
+		"editor": "Galactic Ventures",
+		"release_date": "2024-04-15",
+		"image": "rocketrush_galactic_grand_prix.jpg",
+		"description": "Blast through space tracks, compete in a high-speed Galactic Grand Prix, and become the champion in RocketRush: Galactic Grand Prix.",
+		"ratings": 4.7,
+		"tags": [
+			"Racing",
+			"Sci-Fi",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "RacingStarX",
+				"datetime": "2024-04-16T14:00:00",
+				"commentary": "Galactic Grand Prix delivers an adrenaline-fueled racing experience. The space tracks and dynamic obstacles add excitement to every race.",
+				"rating": 4.8
+			},
+			{
+				"name": "GalacticRacer123",
+				"datetime": "2024-04-17T11:30:00",
+				"commentary": "RocketRush combines speed and strategy in a way that few racing games do. The Galactic Grand Prix is a thrilling competition.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 88,
+				"name": "Cosmic Speedsters Pack",
+				"price": 9.99,
+				"release_date": "2024-08-01"
+			}
+		]
+	},
+	{
+		"id": 89,
+		"name": "ArcaneArena: Magical Showdown",
+		"price": 34.99,
+		"developer": "Enchanting Realms",
+		"editor": "Magical Ventures",
+		"release_date": "2024-11-30",
+		"image": "arcanearena_magical_showdown.jpg",
+		"description": "Engage in magical duels, master arcane spells, and compete in the mystical Arena in ArcaneArena: Magical Showdown.",
+		"ratings": 4.4,
+		"tags": [
+			"Fighting",
+			"Magic",
+			"Arena"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "MageDuelistX",
+				"datetime": "2024-12-01T14:30:00",
+				"commentary": "Magical Showdown offers a unique blend of fighting and magic. The duels are visually stunning, and the spell variety adds depth.",
+				"rating": 4.5
+			},
+			{
+				"name": "MagicConqueror123",
+				"datetime": "2024-12-02T11:00:00",
+				"commentary": "The magical combat is both strategic and exhilarating. ArcaneArena provides a fresh take on the fighting genre.",
+				"rating": 4.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 89,
+				"name": "Mystic Duelist Pack",
+				"price": 14.99,
+				"release_date": "2025-05-15"
+			}
+		]
+	},
+	{
+		"id": 90,
+		"name": "StrikerSim: Football Manager",
+		"price": 39.99,
+		"developer": "Sports Simulations",
+		"editor": "Football Ventures",
+		"release_date": "2024-07-01",
+		"image": "strikersim_football_manager.jpg",
+		"description": "Take charge of a football team, make strategic decisions, and lead your club to victory in StrikerSim: Football Manager.",
+		"ratings": 4.6,
+		"tags": [
+			"Sports",
+			"Simulation",
+			"Football"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "FootballManagerX",
+				"datetime": "2024-07-02T14:00:00",
+				"commentary": "StrikerSim provides an immersive football management experience. The strategic depth and realistic simulations make it a standout.",
+				"rating": 4.7
+			},
+			{
+				"name": "SoccerStrategist123",
+				"datetime": "2024-07-03T11:30:00",
+				"commentary": "Football Manager is a must-play for football enthusiasts. The attention to detail in player management and tactics is impressive.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 90,
+				"name": "Champion's Legacy Pack",
+				"price": 19.99,
+				"release_date": "2025-01-01"
+			}
+		]
+	},
+	{
+		"id": 91,
+		"name": "SprintMaster: Urban Racing",
+		"price": 49.99,
+		"developer": "City Racer Studios",
+		"editor": "Urban Ventures",
+		"release_date": "2024-05-20",
+		"image": "sprintmaster_urban_racing.jpg",
+		"description": "Speed through city streets, customize your ride, and compete in high-stakes races in SprintMaster: Urban Racing.",
+		"ratings": 4.6,
+		"tags": [
+			"Racing",
+			"Action",
+			"Urban"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "UrbanRacerX",
+				"datetime": "2024-05-21T14:00:00",
+				"commentary": "Urban Racing captures the thrill of city street racing. The customization options and tight controls make it a top-notch racing game.",
+				"rating": 4.7
+			},
+			{
+				"name": "SpeedDemon123",
+				"datetime": "2024-05-22T11:30:00",
+				"commentary": "SprintMaster offers an adrenaline-pumping experience. The urban environments and intense races keep you on the edge of your seat.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 91,
+				"name": "Urban Legends Pack",
+				"price": 14.99,
+				"release_date": "2024-09-15"
+			}
+		]
+	},
+	{
+		"id": 92,
+		"name": "SimCityBuilder: Metropolis Tycoon",
+		"price": 39.99,
+		"developer": "City Builder Games",
+		"editor": "Metropolis Ventures",
+		"release_date": "2024-08-15",
+		"image": "simcitybuilder_metropolis_tycoon.jpg",
+		"description": "Build and manage a thriving metropolis, plan urban development, and become a city tycoon in SimCityBuilder: Metropolis Tycoon.",
+		"ratings": 4.5,
+		"tags": [
+			"Simulation",
+			"Strategy",
+			"Urban"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "CityBuilderX",
+				"datetime": "2024-08-16T14:30:00",
+				"commentary": "Metropolis Tycoon is a city-building masterpiece. The depth of simulation and strategic elements make it a must-play for strategy enthusiasts.",
+				"rating": 4.6
+			},
+			{
+				"name": "UrbanPlanner123",
+				"datetime": "2024-08-17T11:00:00",
+				"commentary": "SimCityBuilder offers a satisfying city-building experience. The attention to detail and realistic urban development add to its charm.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 92,
+				"name": "Metropolis Expansion Pack",
+				"price": 19.99,
+				"release_date": "2025-02-01"
+			}
+		]
+	},
+	{
+		"id": 93,
+		"name": "HardcourtHeroes: Basketball Slam",
+		"price": 54.99,
+		"developer": "Sports Gaming Studios",
+		"editor": "Basketball Ventures",
+		"release_date": "2024-03-10",
+		"image": "hardcourtheroes_basketball_slam.jpg",
+		"description": "Hit the court, make epic dunks, and lead your team to victory in HardcourtHeroes: Basketball Slam.",
+		"ratings": 4.7,
+		"tags": [
+			"Sports",
+			"Basketball",
+			"Action"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "SlamDunkMasterX",
+				"datetime": "2024-03-11T14:00:00",
+				"commentary": "Basketball Slam delivers intense hoops action. The dunk animations and responsive controls make it a standout in the sports genre.",
+				"rating": 4.8
+			},
+			{
+				"name": "HoopsEnthusiast123",
+				"datetime": "2024-03-12T11:30:00",
+				"commentary": "HardcourtHeroes captures the excitement of basketball. The fast-paced gameplay and realistic player movements create a true-to-life experience.",
+				"rating": 4.6
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 93,
+				"name": "Legends of Hardcourt Pack",
+				"price": 14.99,
+				"release_date": "2024-07-01"
+			}
+		]
+	},
+	{
+		"id": 94,
+		"name": "WildernessEscape: Nature Survival",
+		"price": 44.99,
+		"developer": "Nature Studios",
+		"editor": "Survival Ventures",
+		"release_date": "2024-10-05",
+		"image": "wildernessescape_nature_survival.jpg",
+		"description": "Embark on a wilderness adventure, explore the great outdoors, and test your survival skills in WildernessEscape: Nature Survival.",
+		"ratings": 4.4,
+		"tags": [
+			"Survival",
+			"Adventure",
+			"Open World"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Ti"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "AMD Ryzen 7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "NatureExplorerX",
+				"datetime": "2024-10-06T14:30:00",
+				"commentary": "Nature Survival provides a realistic wilderness experience. The open-world exploration and survival mechanics are top-notch.",
+				"rating": 4.5
+			},
+			{
+				"name": "WildSurvivor123",
+				"datetime": "2024-10-07T11:00:00",
+				"commentary": "WildernessEscape captures the beauty and challenges of nature. The dynamic weather and wildlife interactions make it an immersive survival game.",
+				"rating": 4.3
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 94,
+				"name": "Wilderness Explorer Pack",
+				"price": 19.99,
+				"release_date": "2025-03-01"
+			}
+		]
+	},
+	{
+		"id": 95,
+		"name": "StreetJustice: Urban Crime",
+		"price": 34.99,
+		"developer": "Crime Action Studios",
+		"editor": "Urban Ventures",
+		"release_date": "2024-11-01",
+		"image": "streetjustice_urban_crime.jpg",
+		"description": "Dive into the gritty urban underworld, solve crimes, and enforce street justice in StreetJustice: Urban Crime.",
+		"ratings": 4.2,
+		"tags": [
+			"Action",
+			"Adventure",
+			"Crime"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "CrimeSolverX",
+				"datetime": "2024-11-02T14:00:00",
+				"commentary": "Urban Crime provides a thrilling detective experience. The crime-solving mechanics and realistic urban setting make it engaging.",
+				"rating": 4.3
+			},
+			{
+				"name": "StreetEnforcer123",
+				"datetime": "2024-11-03T11:30:00",
+				"commentary": "StreetJustice delivers a gritty and immersive crime-solving adventure. The narrative and characters add depth to the gameplay.",
+				"rating": 4.1
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Mature",
+		"dlc": [
+			{
+				"id": 95,
+				"name": "Underworld Chronicles Pack",
+				"price": 14.99,
+				"release_date": "2025-05-15"
+			}
+		]
+	},
+	{
+		"id": 96,
+		"name": "WhoopeeWorld: Carnival Capers",
+		"price": 29.99,
+		"developer": "Jestful Games",
+		"editor": "Whoopee Ventures",
+		"release_date": "2024-09-01",
+		"image": "whoopeeworld_carnival_capers.jpg",
+		"description": "Step into a wacky carnival, play hilarious minigames, and join the laughter-filled mayhem in WhoopeeWorld: Carnival Capers.",
+		"ratings": 4.6,
+		"tags": [
+			"Comedy",
+			"Minigames",
+			"Carnival"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Giggles GPU"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX Chuckle Edition"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "CarnivalKingX",
+				"datetime": "2024-09-02T14:30:00",
+				"commentary": "Carnival Capers is a blast! The minigames are ridiculously funny, and the carnival atmosphere adds to the joyous experience.",
+				"rating": 4.7
+			},
+			{
+				"name": "GiggleExplorer123",
+				"datetime": "2024-09-03T11:00:00",
+				"commentary": "This game is a carnival of laughs! The minigames are entertaining, and the quirky characters make it a comedy gem.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 96,
+				"name": "Jester's Delight Pack",
+				"price": 9.99,
+				"release_date": "2024-12-01"
+			}
+		]
+	},
+	{
+		"id": 97,
+		"name": "PunMaster: Wordplay Challenge",
+		"price": 19.99,
+		"developer": "Punny Games",
+		"editor": "Joke Ventures",
+		"release_date": "2024-02-15",
+		"image": "punmaster_wordplay_challenge.jpg",
+		"description": "Test your wit, solve pun-filled puzzles, and become the PunMaster in this hilarious Wordplay Challenge.",
+		"ratings": 4.5,
+		"tags": [
+			"Comedy",
+			"Puzzle",
+			"Wordplay"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Chuckles Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA GTX Joke Edition"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 4"
+		],
+		"comments": [
+			{
+				"name": "PunMasterX",
+				"datetime": "2024-02-16T14:30:00",
+				"commentary": "Wordplay Challenge is punbelievably fun! The puzzles are clever, and the puns are delivered with perfect comedic timing.",
+				"rating": 4.6
+			},
+			{
+				"name": "JokeSolver123",
+				"datetime": "2024-02-17T11:00:00",
+				"commentary": "This game is a laugh riot! The wordplay challenges are challenging yet entertaining, and the humor is top-notch.",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 97,
+				"name": "Punster's Paradise Pack",
+				"price": 9.99,
+				"release_date": "2024-06-01"
+			}
+		]
+	},
+	{
+		"id": 98,
+		"name": "SillySim: Absurd Life Simulator",
+		"price": 34.99,
+		"developer": "Whimsy Games",
+		"editor": "Absurd Ventures",
+		"release_date": "2024-12-01",
+		"image": "sillysim_absurd_life_simulator.jpg",
+		"description": "Step into the shoes of a character with a life so absurd, it's practically a sitcom. SillySim offers a hilarious life simulation filled with quirky characters, outrageous events, and moments that defy all logic.",
+		"ratings": 4.5,
+		"tags": [
+			"Comedy",
+			"Simulation",
+			"Life"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "Dedicated Graphics"
+		},
+		"platforms": [
+			"PC",
+			"Nintendo Switch"
+		],
+		"comments": [
+			{
+				"name": "AbsurdLifeMasterX",
+				"datetime": "2024-12-02T14:30:00",
+				"commentary": "Absurd Life Simulator is a comedic masterpiece! The absurdity level is off the charts. Every decision leads to hilariously unpredictable outcomes.",
+				"rating": 4.6
+			},
+			{
+				"name": "SillyGamer123",
+				"datetime": "2024-12-03T11:00:00",
+				"commentary": "SillySim is pure hilarity. The characters and events are so bizarre, it's like living in a sitcom. A must-play for comedy enthusiasts!",
+				"rating": 4.4
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Teen",
+		"dlc": [
+			{
+				"id": 98,
+				"name": "Whimsical Expansion",
+				"price": 12.99,
+				"release_date": "2025-05-01"
+			}
+		]
+	},
+	{
+		"id": 99,
+		"name": "Chucklin'Chess: Comic Checkmate",
+		"price": 19.99,
+		"developer": "Jester Games",
+		"editor": "Checkmate Ventures",
+		"release_date": "2025-02-15",
+		"image": "chucklinchess_comic_checkmate.jpg",
+		"description": "Experience chess like never before with Chucklin'Chess! This comedic twist on the classic game adds a hilarious layer to every move. Get ready for pun-filled chess pieces and uproarious checkmates.",
+		"ratings": 4.3,
+		"tags": [
+			"Comedy",
+			"Strategy",
+			"Chess"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i3",
+			"memory": "8GB RAM",
+			"graphics": "Integrated Graphics"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "16GB RAM",
+			"graphics": "Dedicated Graphics"
+		},
+		"platforms": [
+			"PC",
+			"PlayStation 5"
+		],
+		"comments": [
+			{
+				"name": "ChessJesterX",
+				"datetime": "2025-02-16T14:30:00",
+				"commentary": "Comic Checkmate is a blast! The humor adds a new dimension to chess. It's like playing with a stand-up comedian in each piece.",
+				"rating": 4.4
+			},
+			{
+				"name": "LaughingGrandmaster123",
+				"datetime": "2025-02-17T11:00:00",
+				"commentary": "This is the most entertaining chess experience ever. Chucklin'Chess is a masterpiece of strategy and comedy combined.",
+				"rating": 4.2
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone 10+",
+		"dlc": [
+			{
+				"id": 99,
+				"name": "Jester's Gambit Pack",
+				"price": 6.99,
+				"release_date": "2025-06-01"
+			}
+		]
+	},
+	{
+		"id": 100,
+		"name": "WhoopeeWorld: Theme Park Laughs",
+		"price": 39.99,
+		"developer": "Guffaws Unlimited",
+		"editor": "Amusement Ventures",
+		"release_date": "2025-05-20",
+		"image": "whoopeeworld_theme_park_laughs.jpg",
+		"description": "Roller coasters with punchlines, bumper cars with humor – welcome to WhoopeeWorld! This comedy-themed amusement park simulator will have you managing hilarious attractions, goofy mascots, and ensuring every visitor leaves with a smile.",
+		"ratings": 4.6,
+		"tags": [
+			"Comedy",
+			"Simulation",
+			"Theme Park"
+		],
+		"minimal_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i5",
+			"memory": "12GB RAM",
+			"graphics": "NVIDIA GTX 1660 Super"
+		},
+		"recommended_config": {
+			"os": "Windows 11",
+			"processor": "Intel Core i7",
+			"memory": "16GB RAM",
+			"graphics": "NVIDIA RTX 3060"
+		},
+		"platforms": [
+			"PC",
+			"Xbox Series X"
+		],
+		"comments": [
+			{
+				"name": "ThemeParkJokerX",
+				"datetime": "2025-05-21T14:30:00",
+				"commentary": "Theme Park Laughs is a riot! Managing a park full of comedy attractions is pure joy. The humor is top-notch, and the roller coasters are hilarious.",
+				"rating": 4.7
+			},
+			{
+				"name": "LaughingVisitor123",
+				"datetime": "2025-05-22T11:00:00",
+				"commentary": "This game is a roller coaster of laughs! WhoopeeWorld is a fantastic mix of simulation and comedy. The attractions are a comedic masterpiece.",
+				"rating": 4.5
+			}
+		],
+		"development_state": "Released",
+		"esrb_rating": "Everyone",
+		"dlc": [
+			{
+				"id": 100,
+				"name": "Guffaw Expansion Pack",
+				"price": 14.99,
+				"release_date": "2025-09-01"
+			}
+		]
+	}
+]
