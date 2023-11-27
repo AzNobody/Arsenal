@@ -10,7 +10,7 @@ import GameList from "./views/GameList.vue";
 export default {
   name: "App",
   components: {
-    GameList: GameList,
+    GameList: GameList
   },
 };
 </script>
