@@ -30,7 +30,7 @@ export default defineComponent({
   <Carousel>
     <Slide v-for="image in imagePaths" :key="image">
       <div class="carousel__item">
-        <img :src="image" alt="Slide Image" style="width: 700px; height: 700px;">
+        <img :src="image" alt="Slide Image" style="width: 500px; height: 500px;">
       </div>
     </Slide>
 
@@ -43,12 +43,8 @@ export default defineComponent({
 
 <style>
 .carousel__item {
-  //Ratio 16:9 et taille optimale avec 400x715 mais
-  //les photo sont à l'origine 1024x1024 donc ratio 1:1
-  //min-height: 400px;
-  //width: 715px;
-  min-height: 700px;
-  width: 700px;
+  min-height: 500px;
+  width: 500px;
   background-color: var(--vc-clr-primary);
   color: #F2E2C4;
   font-size: 20px;
