@@ -4,7 +4,11 @@ import CarouselComponent from "@/components/pages/CarouselComponent.vue";
 </script>
 
 <template>
-  <TopBarComponent></TopBarComponent>
+  <div id="TopBar">
+    <TopBarComponent></TopBarComponent>
+    <carousel-component></carousel-component>
+  </div>
+
 </template>
 
 <style scoped>

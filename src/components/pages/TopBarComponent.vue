@@ -1,29 +1,31 @@
 <script setup>
-import {ref} from "vue";
 </script>
 
 <template>
 <div id="topBar">
-  <img id="logo" src="/src/assets/logo.svg" alt="logo placeholder">
+  <router-link to="/">
+    <img id="logo" src="/src/assets/arsenal_logo.svg" alt="Arsenal Logo">
+  </router-link>
   <div id="topBarButtonGroup">
-    <button ref="storeButton" class="topBarButton">
+    <button id="storeButton" class="topBarButton">
       <router-link to="/magasin">Magasin</router-link>
     </button>
-    <button ref="libraryButton" class="topBarButton">
+    <button id="libraryButton" class="topBarButton">
       <router-link to="/bibliotheque">Bibliothèque</router-link>
     </button>
-    <button ref="profileButton" class="topBarButton">
+    <button id="profileButton" class="topBarButton">
       <router-link to="/profil">Profil</router-link>
     </button>
   </div>
-  <div>
-    <p>Logo Panier</p>
+  <div id="shoppingCart">
+    <font-awesome-icon icon="fa-solid fa-cart-shopping" size="lg" style="color: #1d1f26;" />
   </div>
 </div>
 </template>
 
 <style scoped>
 #logo {
+  padding-left: 20px;
   width: 100px;
   height: 100px;
 }
@@ -31,12 +33,9 @@ import {ref} from "vue";
 #topBar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #F2E2C4;
   margin-top: 2%;
-}
-
-#topBarButtonGroup {
-  padding-top: 20px;
 }
 
 .topBarButton {
@@ -47,6 +46,19 @@ import {ref} from "vue";
   color: #1D1F26;
   cursor: pointer;
   white-space: nowrap;
+  font-weight: bold;
+  font-size: larger;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.topBarButton:hover {
+  opacity: 0.6
+}
+
+#libraryButton {
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active{
@@ -54,7 +66,11 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   text-decoration: None;
 }
 
-a:active {
-  border-bottom: #1D1F26;
+#shoppingCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  padding-right: 20px;
 }
 </style>

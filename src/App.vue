@@ -10,8 +10,7 @@
 
 <style scoped>
 #app {
-  width: 100%;
-  height: 100%;
   margin: 0;
+  min-height: 100vh;
 }
 </style>
