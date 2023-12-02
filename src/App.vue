@@ -2,11 +2,10 @@
   <div id="app">
     <router-view></router-view>
   </div>
-  <GameList />
 </template>
 
 <script>
-import GameList from "./views/GameList.vue";
+import GameList from "./components/pages/GameListComponent.vue";
 export default {
   name: "App",
   components: {
