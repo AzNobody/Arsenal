@@ -16,4 +16,8 @@ export default {
 </script>
 
 <style scoped>
+#app {
+  margin: 0;
+  min-height: 100vh;
+}
 </style>
