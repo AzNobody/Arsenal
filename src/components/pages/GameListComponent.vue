@@ -85,7 +85,7 @@ export default {
       </button>
       <div class="dropdown-content" v-if="showDropdown">
         <div class="slidecontainer">
-          <input v-model="priceRange" type="range" min="0" max="13" value="13" style="width: 100%">
+          <input v-model="priceRange" type="range" min="0" max="13" style="width: 100%">
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
         <div>Recherche par tag:</div>

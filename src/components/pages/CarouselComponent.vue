@@ -51,7 +51,6 @@ export default defineComponent({
   background-color: var(--vc-clr-primary);
   color: #F2E2C4;
   font-size: 20px;
-  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
