@@ -68,15 +68,16 @@ export default {
 </script>
 
 <template>
+  <div class="line-break"></div>
   <h1 id="gameListTitle">Jeux populaires</h1>
-  <div class="search-bar" style="margin: 20px;">
-    <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch"/>
-    <div id="magnifyingGlass" style="margin-left: 62%;">
+  <div class="search-bar">
+    <div id="magnifyingGlass">
       <svg id="magnifyingGlassIcon" xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512">
         <path
             d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
       </svg>
     </div>
+    <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch" placeholder="Rechercher un jeu..."/>
     <div @mouseenter="showDropdown = true" @mouseleave="showDropdown = false" class="dropdown">
       <button @click="showDropdown = !showDropdown" class="dropdownbtn">
         <svg xmlns="http://www.w3.org/2000/svg" height="12" width="16" viewBox="0 0 384 512">
@@ -112,66 +113,116 @@ export default {
 </template>
 
 <style scoped>
-.product-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.product-box {
-  width: calc(25% - 15px);
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
+.line-break {
+  margin-top: 50px;
+  position: absolute;
+  left: 40%; /* Adjust the left value to center the line */
+  width: 20%; /* Adjust the width value according to your preference */
+  height: 3px;
+  background-color: #90312c; /* Change the color if needed */
+  z-index: 1; /* Ensure the line is below the title */
 }
 
 #gameListTitle {
   text-align: center;
   font-size: 34pt;
+  text-transform: uppercase;
+  margin-top: 120px; /* Adjust the margin-top value according to your preference */
+  position: relative;
+}
+
+.product-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.product-box {
+  width: calc(25% - 15px);
+  box-sizing: border-box;
+  border: 1px solid #b82626;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-box p {
+  display: none;
+}
+
+.product-box h3 {
+  display: none;
 }
 
 .search-bar {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 #gameSearchBarInput {
   display: flex;
   width: 70%;
-  height: 40px;
-  font-size: 20pt;
+  height: 25px;
+  font-size: 15pt;
   background-color: #F2E2C4;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#gameSearchBarInput:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #tagSearchBarInput {
-  display: flex;
   width: 96%;
-  height: 20px;
-  font-size: 12pt;
+  height: 30px;
+  font-size: 14pt;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 #magnifyingGlass {
   position: absolute;
+  right: 17%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  z-index: 1;
-}
-
-#magnifyingGlassIcon {
-  cursor: pointer;
+  height: 100%;
+  padding: 0 10px;
 }
 
 .dropdownbtn {
   background-color: black;
+  width: 100%;
   padding: 14px;
   margin-left: 20px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdownbtn:hover {
+  background-color: #555;
 }
 
 .dropdown-content {
@@ -179,9 +230,11 @@ export default {
   display: block;
   background-color: #F2E2C4;
   width: 240px;
-  margin-left: 20px;
+  right: 3%;
+  transform: translateX(-50%);
   overflow: hidden;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   z-index: 1;
 }
 
@@ -190,5 +243,15 @@ export default {
   padding: 12px;
   text-decoration: none;
   display: block;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content > div:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content > div:hover {
+  background-color: #ddd;
 }
 </style>

@@ -42,6 +42,9 @@ export default defineComponent({
 </template>
 
 <style>
+.carousel__viewport {
+  margin: 30px auto 0 auto;
+}
 .carousel__item {
   min-height: 500px;
   width: 500px;
@@ -52,20 +55,36 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Ensure images are clipped to the rounded corners */
+  border-radius: 10px; /* Add rounded corners to the images */
 }
 
-//Même si l'IDE les marquent comme non utilisés, ces selecteurs affectent les données du package
-//Si on veut modifier le comportement carousel il faut inspecter les selecteurs utilisés
-//par le package en utilisant l'inspecteur dans chrome
-
-.carousel__slide {
-  padding: 10px;
+.carousel__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel__prev,
 .carousel__next {
   box-sizing: content-box;
-  color: #1D1F26;
+  color: #B9342C;
+  font-size: 24px; /* Adjust arrow size */
+  position: absolute; /* Position arrows */
+  top: 50%; /* Center arrows vertically */
+  transform: translateY(-50%); /* Center arrows vertically */
+  border-radius: 50%; /* Make arrow shapes rounded */
+  background-color: #90312c; /* Match carousel background color */
+  padding: 8px; /* Adjust padding for arrows */
+  cursor: pointer;
+}
+
+.carousel__prev {
+  left: 10px; /* Adjust left position for the previous arrow */
+}
+
+.carousel__next {
+  right: 10px; /* Adjust right position for the next arrow */
 }
 
 .carousel__pagination {
@@ -78,7 +97,8 @@ export default defineComponent({
   width: 80%;
 }
 
-.carousel__next--disabled, .carousel__prev--disabled {
+.carousel__next--disabled,
+.carousel__prev--disabled {
   cursor: auto;
 }
 </style>

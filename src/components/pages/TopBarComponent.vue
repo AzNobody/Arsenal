@@ -2,25 +2,27 @@
 </script>
 
 <template>
-<div id="topBar">
-  <router-link to="/">
-    <img id="logo" src="/src/assets/arsenal_logo.svg" alt="Arsenal Logo">
-  </router-link>
-  <div id="topBarButtonGroup">
-    <button id="storeButton" class="topBarButton">
-      <router-link to="/magasin">Magasin</router-link>
-    </button>
-    <button id="libraryButton" class="topBarButton">
-      <router-link to="/bibliotheque">Bibliothèque</router-link>
-    </button>
-    <button id="profileButton" class="topBarButton">
-      <router-link to="/profil">Profil</router-link>
-    </button>
+  <div id="topBar">
+    <router-link to="/">
+      <img id="logo" src="/src/assets/arsenal_logo.svg" alt="Arsenal Logo">
+    </router-link>
+    <div id="topBarButtonGroup">
+      <router-link to="/magasin">
+        <button id="storeButton" class="topBarButton">Magasin</button>
+      </router-link>
+      <router-link to="/bibliotheque">
+        <button id="libraryButton" class="topBarButton">Bibliothèque</button>
+      </router-link>
+      <router-link to="/profil">
+        <button id="profileButton" class="topBarButton">Profil</button>
+      </router-link>
+    </div>
+    <div id="shoppingCart">
+      <router-link to="/panier">
+        <a id="cartButton" class="topBarButton"><font-awesome-icon icon="fa-solid fa-cart-shopping" size="lg" style="color: #1d1f26;" /></a>
+      </router-link>
+    </div>
   </div>
-  <div id="shoppingCart">
-    <font-awesome-icon icon="fa-solid fa-cart-shopping" size="lg" style="color: #1d1f26;" />
-  </div>
-</div>
 </template>
 
 <style scoped>
@@ -39,21 +41,22 @@
 }
 
 .topBarButton {
-  display: inline-block;
-  border: None;
-  padding: 5px 10px;
+  position: relative;
+  border: none;
+  padding: 10px 15px;
   background-color: #F2E2C4;
   color: #1D1F26;
   cursor: pointer;
   white-space: nowrap;
   font-weight: bold;
   font-size: larger;
-  opacity: 1;
-  transition: 0.3s;
+  overflow: hidden;
+  transition: background-color 0.3s;
+  border-radius: 30px;
 }
 
 .topBarButton:hover {
-  opacity: 0.6
+  background-color: #D9C7A9;
 }
 
 #libraryButton {
@@ -61,9 +64,14 @@
   margin-right: 70px;
 }
 
-a, a:link, a:visited, a:focus, a:hover, a:active{
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
   color: #1D1F26;
-  text-decoration: None;
+  text-decoration: none;
 }
 
 #shoppingCart {
