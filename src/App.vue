@@ -5,13 +5,7 @@
 </template>
 
 <script>
-import GameList from "./components/pages/GameListComponent.vue";
-export default {
-  name: "App",
-  components: {
-    GameList: GameList
-  },
-};
+
 </script>
 
 <style scoped>
