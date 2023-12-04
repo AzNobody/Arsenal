@@ -27,7 +27,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Carousel>
+  <Carousel :wrap-around="true">
     <Slide v-for="image in imagePaths" :key="image">
       <div class="carousel__item">
         <img :src="image" alt="Slide Image" style="width: 500px; height: 500px;">
