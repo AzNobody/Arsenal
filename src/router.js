@@ -3,6 +3,8 @@ import HomePage from './views/HomePage.vue';
 import Bibliotheque from "@/views/Bibliotheque.vue";
 import Magasin from "@/views/Magasin.vue";
 import Profil from "@/views/Profil.vue";
+import Panier from "@/views/Panier.vue";
+import GameComponent from "@/components/pages/GameComponent.vue";
 
 const router = createRouter({
     history: createWebHistory(),
@@ -27,6 +29,16 @@ const router = createRouter({
             name: 'profil',
             component: Profil,
         },
+        {
+            path: '/panier',
+            name: 'panier',
+            component: Panier,
+        },
+        {
+            path: '/jeu/:id',
+            name: '/jeu/:id',
+            component: GameComponent,
+        }
     ]
 }) ;
 

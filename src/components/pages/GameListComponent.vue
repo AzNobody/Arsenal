@@ -147,13 +147,19 @@ export default {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  overflow: hidden; /* Ensure the shadow doesn't overflow the box */
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease, transform 0.3s ease; /* Add transitions for box shadow and scale */
+}
+
+.product-box:hover {
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.4); /* Increase shadow size on hover */
+  transform: scale(1.05); /* Increase scale on hover */
 }
 
 .product-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+  width: 100%; /* Make sure the image takes the full width of the container */
+  height: 100%; /* Maintain aspect ratio */
 }
 
 .product-box p {
