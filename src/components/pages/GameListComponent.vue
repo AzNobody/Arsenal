@@ -105,9 +105,11 @@ export default {
   </div>
   <div class="product-container">
     <div class="product-box" v-for="game in searchGame" :key="game.id">
-      <h3>{{ game.name }}</h3>
-      <p>{{game.tags}}</p>
-      <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;"> <!--src="{{game.image}}-->
+      <router-link :to="'/jeu/' + game.id">
+        <h3>{{ game.name }}</h3>
+        <p>{{ game.tags }}</p>
+        <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;"> <!--src="{{game.image}}-->
+      </router-link>
     </div>
   </div>
 </template>
