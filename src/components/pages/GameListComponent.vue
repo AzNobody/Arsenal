@@ -36,16 +36,14 @@ export default {
       let games = this.mygames.filter((p) => {
         return p.name.toLowerCase().indexOf(this.gameSearch.toLowerCase()) !== -1;
       });
-      if (this.activeTags !== "")
-      {
+      if (this.activeTags !== "") {
         this.activeTags.forEach(filterTag => {
           games = games.filter((p) => {
             return p.tags.indexOf(filterTag) !== -1;
           });
         })
       }
-      if (this.priceRange !== 13)
-      {
+      if (this.priceRange !== 13) {
         games = games.filter((p) => {
           if (p.price > (this.priceRange * 6))
             return p.name.indexOf(p.name);
@@ -90,15 +88,17 @@ export default {
           <input v-model="priceRange" type="range" min="0" max="13" value="13" style="width: 100%">
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
-        <div>Recherche par tag: </div>
+        <div>Recherche par tag:</div>
         <div class="search-bar">
           <input id="tagSearchBarInput" type="text" maxlength="20" v-model="tagSearch"/>
         </div>
         <span v-for="tag in activeTagsList" :key="tag">
-          <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
+          <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button
+              @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
         </span>
         <span v-for="tag in searchTags.slice(0,7 + activeTags.length)" :key="tag.tag">
-          <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
+          <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button
+              @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
         </span>
       </div>
     </div>
@@ -106,9 +106,19 @@ export default {
   <div class="product-container">
     <div class="product-box" v-for="game in searchGame" :key="game.id">
       <router-link :to="'/jeu/' + game.id">
-        <h3>{{ game.name }}</h3>
-        <p>{{ game.tags }}</p>
-        <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;"> <!--src="{{game.image}}-->
+        <img :src="'../../src/image/' + game.image" alt="Game image">
+        <h3 id="gamePrice">{{ game.price }}$</h3>
+        <div class="product-overlay">
+          <h1>{{ game.name }}</h1>
+          <h2 style="height: 27%; overflow-y: hidden">{{ game.description }}</h2>
+          <h4>Tags: {{game.tags }}</h4>
+          <div id="shoppingCart">
+            <h3>{{ game.price }}$ Ajouter au panier</h3>
+            <a id="cartButton" class="topBarButton">
+              <font-awesome-icon icon="fa-solid fa-cart-shopping" size="3x" style="color: #f5f5f5;"/>
+            </a>
+          </div>
+        </div>
       </router-link>
     </div>
   </div>
@@ -145,7 +155,6 @@ export default {
 .product-box {
   width: calc(25% - 15px);
   box-sizing: border-box;
-  border: 1px solid #b82626;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
@@ -159,17 +168,56 @@ export default {
   transform: scale(1.05);
 }
 
+#gamePrice {
+  z-index: 2;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 24pt;
+  color: forestgreen;
+  background-color: #1D1F26;
+}
+
 .product-box img {
+  z-index: 1;
   width: 100%;
   height: 100%;
 }
 
-.product-box p {
+.product-overlay {
   display: none;
+  top: 0;
+  z-index: 3;
+  height: 100%;
+  position: absolute;
+  padding: 5px;
+  background-color: black;
+  color: white;
 }
 
-.product-box h3 {
-  display: none;
+.product-box:hover .product-overlay {
+  display: block;
+}
+
+#shoppingCart {
+  background-color: forestgreen;
+  color: whitesmoke;
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+  border-radius: 25px;
+}
+
+#shoppingCart h3 {
+  font-size: 20pt;
 }
 
 .search-bar {
