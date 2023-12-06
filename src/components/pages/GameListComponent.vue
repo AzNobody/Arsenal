@@ -87,7 +87,7 @@ export default {
       </button>
       <div class="dropdown-content" v-if="showDropdown">
         <div class="slidecontainer">
-          <input v-model="priceRange" type="range" min="0" max="13" style="width: 100%">
+          <input v-model="priceRange" type="range" min="0" max="13" value="13" style="width: 100%">
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
         <div>Recherche par tag: </div>
@@ -118,18 +118,18 @@ export default {
 .line-break {
   margin-top: 50px;
   position: absolute;
-  left: 40%;
-  width: 20%;
+  left: 40%; /* Adjust the left value to center the line */
+  width: 20%; /* Adjust the width value according to your preference */
   height: 3px;
-  background-color: #90312c;
-  z-index: 1;
+  background-color: #90312c; /* Change the color if needed */
+  z-index: 1; /* Ensure the line is below the title */
 }
 
 #gameListTitle {
   text-align: center;
   font-size: 34pt;
   text-transform: uppercase;
-  margin-top: 120px;
+  margin-top: 120px; /* Adjust the margin-top value according to your preference */
   position: relative;
 }
 
@@ -230,7 +230,7 @@ export default {
 }
 
 .dropdownbtn:hover {
-  background-color: #2e2e2e;
+  background-color: #555;
 }
 
 .dropdown-content {
@@ -261,51 +261,5 @@ export default {
 
 .dropdown-content > div:hover {
   background-color: #ddd;
-}
-
-.dropdown-content button {
-  padding: 5px 10px;
-  background-color: #B9342C;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.dropdown-content button:hover {
-  background-color: #8d1c16;
-}
-
-.slidecontainer input[type="range"] {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 10px;
-  border-radius: 5px;
-  outline: none;
-  margin: 10px 0;
-}
-
-.slidecontainer input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #B9342C;
-  cursor: pointer;
-  border: 2px solid #ffffff;
-  margin-top: -5px;
-}
-
-.slidecontainer input[type="range"]::-webkit-slider-thumb:hover {
-  background: #8d1c16;
-}
-
-.slidecontainer input[type="range"]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 8px;
-  border-radius: 5px;
-  background: #efebeb;
 }
 </style>
