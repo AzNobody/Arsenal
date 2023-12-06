@@ -27,7 +27,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <Carousel>
+  <Carousel :wrap-around="true">
     <Slide v-for="image in imagePaths" :key="image">
       <div class="carousel__item">
         <img :src="image" alt="Slide Image" style="width: 500px; height: 500px;">
@@ -43,7 +43,7 @@ export default defineComponent({
 
 <style>
 .carousel__viewport {
-  margin: 30px auto 0 auto;
+  margin: 30px auto 15px auto;
 }
 .carousel__item {
   min-height: 500px;
@@ -57,12 +57,14 @@ export default defineComponent({
   align-items: center;
   overflow: hidden; /* Ensure images are clipped to the rounded corners */
   border-radius: 10px; /* Add rounded corners to the images */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .carousel__item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding-bottom: 10px;
 }
 
 .carousel__prev,

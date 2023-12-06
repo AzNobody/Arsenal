@@ -36,14 +36,16 @@ export default {
       let games = this.mygames.filter((p) => {
         return p.name.toLowerCase().indexOf(this.gameSearch.toLowerCase()) !== -1;
       });
-      if (this.activeTags !== "") {
+      if (this.activeTags !== "")
+      {
         this.activeTags.forEach(filterTag => {
           games = games.filter((p) => {
             return p.tags.indexOf(filterTag) !== -1;
           });
         })
       }
-      if (this.priceRange !== 13) {
+      if (this.priceRange !== 13)
+      {
         games = games.filter((p) => {
           if (p.price > (this.priceRange * 6))
             return p.name.indexOf(p.name);
@@ -88,28 +90,24 @@ export default {
           <input v-model="priceRange" type="range" min="0" max="13" value="13" style="width: 100%">
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
-        <div>Recherche par tag:</div>
+        <div>Recherche par tag: </div>
         <div class="search-bar">
           <input id="tagSearchBarInput" type="text" maxlength="20" v-model="tagSearch"/>
         </div>
         <span v-for="tag in activeTagsList" :key="tag">
-          <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button
-              @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
+          <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
         </span>
         <span v-for="tag in searchTags.slice(0,7 + activeTags.length)" :key="tag.tag">
-          <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button
-              @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
+          <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
         </span>
       </div>
     </div>
   </div>
   <div class="product-container">
     <div class="product-box" v-for="game in searchGame" :key="game.id">
-      <router-link :to="'/jeu/' + game.id">
-        <h3>{{ game.name }}</h3>
-        <p>{{ game.tags }}</p>
-        <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;"> <!--src="{{game.image}}-->
-      </router-link>
+      <h3>{{ game.name }}</h3>
+      <p>{{game.tags}}</p>
+      <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;"> <!--src="{{game.image}}-->
     </div>
   </div>
 </template>
@@ -118,18 +116,18 @@ export default {
 .line-break {
   margin-top: 50px;
   position: absolute;
-  left: 40%; /* Adjust the left value to center the line */
-  width: 20%; /* Adjust the width value according to your preference */
+  left: 40%;
+  width: 20%;
   height: 3px;
-  background-color: #90312c; /* Change the color if needed */
-  z-index: 1; /* Ensure the line is below the title */
+  background-color: #90312c;
+  z-index: 1;
 }
 
 #gameListTitle {
   text-align: center;
   font-size: 34pt;
   text-transform: uppercase;
-  margin-top: 120px; /* Adjust the margin-top value according to your preference */
+  margin-top: 120px;
   position: relative;
 }
 
@@ -149,13 +147,19 @@ export default {
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  overflow: hidden;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease, transform 0.3s ease;
+}
+
+.product-box:hover {
+  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
 }
 
 .product-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
 }
 
 .product-box p {
@@ -224,7 +228,7 @@ export default {
 }
 
 .dropdownbtn:hover {
-  background-color: #555;
+  background-color: #2e2e2e;
 }
 
 .dropdown-content {
@@ -255,5 +259,51 @@ export default {
 
 .dropdown-content > div:hover {
   background-color: #ddd;
+}
+
+.dropdown-content button {
+  padding: 5px 10px;
+  background-color: #B9342C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+  background-color: #8d1c16;
+}
+
+.slidecontainer input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #B9342C;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  margin-top: -5px;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb:hover {
+  background: #8d1c16;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #efebeb;
 }
 </style>
