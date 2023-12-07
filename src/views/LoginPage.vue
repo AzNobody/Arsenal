@@ -3,18 +3,20 @@ import LoginComponent from "@/components/pages/LoginComponent.vue";
 </script>
 
 <template>
-  <div id="LoginPage">
+  <body>
     <LoginComponent />
-  </div>
-
+  </body>
 </template>
 
 <style scoped>
-#LoginPage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 800px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/login/wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 </style>

@@ -29,68 +29,123 @@ export default {
 
 <template>
   <div class="login-container">
-    <h2>Login</h2>
-    <div class="login-form">
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input v-model="username" type="text" id="username" name="username">
+    <form action="" class="form">
+      <img src="@/assets/arsenal_logo.svg" alt="">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input v-model="username" type="text" name="username" id="username" required>
+        <label for="username">Username</label>
       </div>
-      <!-- <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div> -->
-      <div class="form-group">
-        <button @click="checkLogin">Login</button>
-      </div>
-    </div>
+      <button class="submit-btn" @click="checkLogin">Login</button>
+    </form>
   </div>
 </template>
 
 <style scoped>
 .login-container {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
 }
 
-.login-container h2 {
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 80px 40px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.7);
+}
+
+.form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  pointer-events: none;
+  transform: skewX(-33.5deg);
+  transform-origin: bottom left;
+}
+
+.form img {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.form h2 {
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
   text-align: center;
-  color: #333;
+  color: #991710;
 }
 
-.login-form {
-  display: flex;
-  flex-direction: column;
+.form .input-group {
+  position: relative;
 }
 
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #555;
-}
-
-.form-group input {
-  width: 92%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.form-group button {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px;
+.form .input-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
   border: none;
-  border-radius: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  outline: none;
+  background: transparent;
+}
+
+.form .input-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+  transition: 0.2s ease-out;
+}
+
+.form .input-group input:focus + label,
+.form .input-group input:valid + label {
+  transform: translateY(-18px);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.submit-btn {
+  display: block;
+  margin-left: auto;
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #991710;
+  font-weight: bold;
   cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.7);
+  scale: 1.05;
 }
 </style>
