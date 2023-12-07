@@ -1,6 +1,7 @@
 <script>
 import TopBarComponent from "@/components/pages/TopBarComponent.vue";
 import games from "@/json/games.json";
+import {useCartArrayStore} from "@/stores/cart";
 
 export default {
   name: "GameComponent",
@@ -8,6 +9,12 @@ export default {
   data() {
     return {
       game: games[this.$route.params.id - 1],
+    }
+  },
+  methods: {
+    addToCartHandler(gameId) {
+      const store = useCartArrayStore();
+      store.addToCart(gameId);
     }
   }
 };
@@ -29,7 +36,7 @@ export default {
         <h3>Editeur: {{ game.editor }}</h3>
         <h3>Tags populaires: {{ game.tags }}</h3>
         <h3>Classification ESRB: {{ game.esrb_rating }}</h3>
-        <div id="shoppingCart">
+        <div id="shoppingCart" @click="addToCartHandler(game.id)">
           <h3>{{ game.price }}$ Ajouter au panier</h3>
           <a id="cartButton" class="topBarButton">
             <font-awesome-icon icon="fa-solid fa-cart-shopping" size="3x" style="color: #f5f5f5;"/>
@@ -139,6 +146,7 @@ h1 {
   align-items: center;
   height: 80px;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 #shoppingCart h3 {
