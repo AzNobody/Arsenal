@@ -1,6 +1,5 @@
 <script>
 import games from "@/json/games.json";
-import tags from "@/json/tags.json";
 import {useCartArrayStore} from "@/stores/cart";
 
 export default {
