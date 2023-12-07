@@ -8,11 +8,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+// import config so we can set a default style
+import { config } from "@fortawesome/fontawesome-svg-core";
+
 /* import specific icons */
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faCartShopping)
+library.add(fas)
 
 const app = createApp(App);
 app.use(router);
