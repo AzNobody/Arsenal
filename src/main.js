@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import { createPinia } from 'pinia';
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -9,12 +10,15 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faCartShopping, faX } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faCartShopping)
+library.add(faCartShopping, faX)
 
 const app = createApp(App);
+const pinia = createPinia();
+
+app.use(pinia);
 app.use(router);
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app');

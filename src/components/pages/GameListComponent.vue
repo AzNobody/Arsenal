@@ -1,6 +1,7 @@
 <script>
 import games from "@/json/games.json";
 import tags from "@/json/tags.json";
+import {useCartArrayStore} from "@/stores/cart";
 
 export default {
   name: "GameList",
@@ -61,6 +62,12 @@ export default {
     activeTagsList() {
       return this.activeTags;
     }
+  },
+  methods: {
+    addToCartHandler(gameId) {
+      const store = useCartArrayStore();
+      store.addToCart(gameId);
+    }
   }
 };
 </script>
@@ -114,7 +121,7 @@ export default {
           <h4>Tags: {{game.tags }}</h4>
           <div id="shoppingCart">
             <h3>{{ game.price }}$ Ajouter au panier</h3>
-            <a id="cartButton" class="topBarButton">
+            <a id="cartButton" @click="addToCartHandler(game.id)" class="topBarButton">
               <font-awesome-icon icon="fa-solid fa-cart-shopping" size="3x" style="color: #f5f5f5;"/>
             </a>
           </div>
