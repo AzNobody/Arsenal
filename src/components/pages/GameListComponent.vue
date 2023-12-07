@@ -88,9 +88,8 @@ export default {
           <input v-model="priceRange" type="range" min="0" max="13" value="13" style="width: 100%">
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
-        <div>Recherche par tag:</div>
         <div class="search-bar">
-          <input id="tagSearchBarInput" type="text" maxlength="20" v-model="tagSearch"/>
+          <input id="tagSearchBarInput" type="text" placeholder="Rechercher un tag" maxlength="20" v-model="tagSearch"/>
         </div>
         <span v-for="tag in activeTagsList" :key="tag">
           <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button
@@ -110,12 +109,12 @@ export default {
         <h3 id="gamePrice">{{ game.price }}$</h3>
         <div class="product-overlay">
           <h1>{{ game.name }}</h1>
-          <h2 style="height: 27%; overflow-y: hidden">{{ game.description }}</h2>
-          <h4>Tags: {{game.tags }}</h4>
+          <h2>{{ game.description }}</h2>
+          <h4>{{game.tags }}</h4>
           <div id="shoppingCart">
-            <h3>{{ game.price }}$ Ajouter au panier</h3>
+            <h3>{{ game.price }}$</h3>
             <a id="cartButton" class="topBarButton">
-              <font-awesome-icon icon="fa-solid fa-cart-shopping" size="3x" style="color: #f5f5f5;"/>
+              <font-awesome-icon icon="fa-cart-shopping" style="color: #f5f5f5;"/>
             </a>
           </div>
         </div>
@@ -128,18 +127,18 @@ export default {
 .line-break {
   margin-top: 50px;
   position: absolute;
-  left: 40%; /* Adjust the left value to center the line */
-  width: 20%; /* Adjust the width value according to your preference */
+  left: 40%;
+  width: 20%;
   height: 3px;
-  background-color: #90312c; /* Change the color if needed */
-  z-index: 1; /* Ensure the line is below the title */
+  background-color: #90312c;
+  z-index: 1;
 }
 
 #gameListTitle {
   text-align: center;
   font-size: 34pt;
   text-transform: uppercase;
-  margin-top: 120px; /* Adjust the margin-top value according to your preference */
+  margin-top: 120px;
   position: relative;
 }
 
@@ -153,6 +152,7 @@ export default {
 }
 
 .product-box {
+  position: relative;
   width: calc(25% - 15px);
   box-sizing: border-box;
   text-align: center;
@@ -171,13 +171,14 @@ export default {
 #gamePrice {
   z-index: 2;
   position: absolute;
-  margin-top: -60px;
-  margin-left: 10px;
-  padding: 5px;
+  bottom: 15px;
+  right: 15px;
+  padding: 3px 7px;
+  margin: 0;
   border-radius: 10px;
-  font-size: 24pt;
+  font-size: 24px;
   color: forestgreen;
-  background-color: #1D1F26;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .product-box img {
@@ -193,8 +194,27 @@ export default {
   height: 100%;
   position: absolute;
   padding: 5px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
+}
+
+.product-overlay h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.product-overlay h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 5px;
+  height: auto;
+  overflow: hidden;
+}
+
+.product-overlay h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .product-box:hover .product-overlay {
@@ -204,20 +224,25 @@ export default {
 #shoppingCart {
   background-color: forestgreen;
   color: whitesmoke;
-  position: absolute;
-  bottom: 25px;
-  left: 15px;
-  padding: 5px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 3px 7px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  width: 90%;
-  border-radius: 25px;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+#shoppingCart:hover {
+  background-color: #135916;
 }
 
 #shoppingCart h3 {
-  font-size: 20pt;
+  font-size: 16px;
+  padding-right: 5px;
 }
 
 .search-bar {
@@ -249,7 +274,7 @@ export default {
 #tagSearchBarInput {
   width: 96%;
   height: 30px;
-  font-size: 14pt;
+  font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 15px;
   padding: 5px;
@@ -309,5 +334,77 @@ export default {
 
 .dropdown-content > div:hover {
   background-color: #ddd;
+}
+
+.dropdown-content button {
+  padding: 5px 10px;
+  background-color: #db3434;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+  background-color: #ba2222;
+}
+
+.dropdown-content span div {
+  margin: 10px;
+}
+
+.slidecontainer input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #e0e0e0;
+  outline: none;
+  margin: 10px 0;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #db3434;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  margin-top: -5px;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-thumb:hover {
+  background: #ba2222;
+}
+
+.slidecontainer input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #bdc3c7;
+}
+
+.slidecontainer input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #bdc3c7;
+}
+
+.slidecontainer input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #db3434;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  margin-top: -5px;
+}
+
+.slidecontainer input[type="range"]::-moz-range-thumb:hover {
+  background: #ba2222;
 }
 </style>
