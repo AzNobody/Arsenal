@@ -72,15 +72,15 @@ export default {
     <div id="magnifyingGlass">
       <svg id="magnifyingGlassIcon" xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512">
         <path
-            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+          d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
       </svg>
     </div>
-    <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch" placeholder="Rechercher un jeu..."/>
+    <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch" placeholder="Rechercher un jeu..." />
     <div @mouseenter="showDropdown = true" @mouseleave="showDropdown = false" class="dropdown">
       <button @click="showDropdown = !showDropdown" class="dropdownbtn">
         <svg xmlns="http://www.w3.org/2000/svg" height="12" width="16" viewBox="0 0 384 512">
           <path fill="#c0c0c0"
-                d="M19.7 34.5c16.3-6.8 35 .9 41.8 17.2L192 364.8 322.5 51.7c6.8-16.3 25.5-24 41.8-17.2s24 25.5 17.2 41.8l-160 384c-5 11.9-16.6 19.7-29.5 19.7s-24.6-7.8-29.5-19.7L2.5 76.3c-6.8-16.3 .9-35 17.2-41.8z"/>
+            d="M19.7 34.5c16.3-6.8 35 .9 41.8 17.2L192 364.8 322.5 51.7c6.8-16.3 25.5-24 41.8-17.2s24 25.5 17.2 41.8l-160 384c-5 11.9-16.6 19.7-29.5 19.7s-24.6-7.8-29.5-19.7L2.5 76.3c-6.8-16.3 .9-35 17.2-41.8z" />
         </svg>
       </button>
       <div class="dropdown-content" v-if="showDropdown">
@@ -89,13 +89,13 @@ export default {
           <div style="text-align: center">Prix: {{ priceFilter[priceRange] }}</div>
         </div>
         <div class="search-bar">
-          <input id="tagSearchBarInput" type="text" placeholder="Rechercher un tag" maxlength="20" v-model="tagSearch"/>
+          <input id="tagSearchBarInput" type="text" placeholder="Rechercher un tag" maxlength="20" v-model="tagSearch" />
         </div>
         <span v-for="tag in activeTagsList" :key="tag">
           <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button
-              @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
+              @click="activeTags.splice(activeTags.indexOf(tag), 1);">-</button> {{ tag }}</div>
         </span>
-        <span v-for="tag in searchTags.slice(0,7 + activeTags.length)" :key="tag.tag">
+        <span v-for="tag in searchTags.slice(0, 7 + activeTags.length)" :key="tag.tag">
           <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button
               @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
         </span>
@@ -110,11 +110,15 @@ export default {
         <div class="product-overlay">
           <h1>{{ game.name }}</h1>
           <h2>{{ game.description }}</h2>
-          <h4>{{game.tags }}</h4>
+          <div class="tags-container">
+            <div v-for="(tag, index) in game.tags" :key="index" class="tag">
+              {{ tag }}
+            </div>
+          </div>
           <div id="shoppingCart">
             <h3>{{ game.price }}$</h3>
             <a id="cartButton" class="topBarButton">
-              <font-awesome-icon icon="fa-cart-shopping" style="color: #f5f5f5;"/>
+              <font-awesome-icon icon="fa-cart-shopping" style="color: #f5f5f5;" />
             </a>
           </div>
         </div>
@@ -200,21 +204,30 @@ export default {
 
 .product-overlay h1 {
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   font-weight: bolder;
 }
 
 .product-overlay h2 {
   font-size: 14px;
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   height: auto;
   overflow: hidden;
 }
 
-.product-overlay h4 {
-  font-size: 14px;
-  margin-bottom: 5px;
+.product-overlay .tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-overlay .tag {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: #323537;
+  color: #fff;
 }
 
 .product-box:hover .product-overlay {
@@ -319,7 +332,7 @@ export default {
   z-index: 1;
 }
 
-.dropdown-content > div {
+.dropdown-content>div {
   color: black;
   padding: 12px;
   text-decoration: none;
@@ -328,11 +341,11 @@ export default {
   transition: background-color 0.3s ease;
 }
 
-.dropdown-content > div:last-child {
+.dropdown-content>div:last-child {
   border-bottom: none;
 }
 
-.dropdown-content > div:hover {
+.dropdown-content>div:hover {
   background-color: #ddd;
 }
 
