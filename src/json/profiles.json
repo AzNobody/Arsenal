@@ -1,114 +1,203 @@
-{
-  "profiles": [
-    {
-      "username": "Gamer1",
-      "real_name": "John Doe",
-      "friends": ["PlayerX", "QuestMaster", "PixelWizard"],
-      "description": "Hey there! I'm an avid gamer who loves RPGs and strategy games. Let's team up and conquer virtual worlds together!"
-    },
-    {
-      "username": "PlayerX",
-      "real_name": "Jane Smith",
-      "friends": ["Gamer1", "PixelPilot", "EpicExplorer", "StealthSniper"],
-      "description": "Hello fellow gamers! I'm all about FPS games and competitive play. Let's aim for victory and have a blast!"
-    },
-    {
-      "username": "QuestMaster",
-      "friends": ["PixelWizard", "ChampionChaser", "VirtualVigilante", "EpicExplorer", "PlayerX"],
-      "description": "Embarking on epic quests and slaying monsters is my specialty. Join me on thrilling adventures in the gaming realm!"
-    },
-    {
-      "username": "PixelWizard",
-      "friends": ["Gamer1", "PlayerX", "EpicExplorer", "ChampionChaser"],
-      "description": "Greetings! I'm a master of pixelated worlds. Let's build, explore, and create unforgettable gaming memories together!"
-    },
-    {
-      "username": "ConsoleChamp",
-      "real_name": "Alex Rodriguez",
-      "friends": ["TechNinja", "MysticMage", "PixelPilot", "StealthSniper"],
-      "description": "Console gaming is my domain. From action-packed adventures to sports simulations, I'm always up for a good challenge!"
-    },
-    {
-      "username": "TechNinja",
-      "friends": ["PixelPilot", "ConsoleChamp", "EpicExplorer"],
-      "description": "Tech enthusiast by day, gaming ninja by night. Ready to showcase my skills and outsmart opponents in the digital arena!"
-    },
-    {
-      "username": "MysticMage",
-      "real_name": "Emily Johnson",
-      "friends": ["PixelWizard", "QuestMaster", "EpicExplorer", "StealthSniper"],
-      "description": "Greetings, fellow adventurers! I wield magical powers and seek companions to join me on mystical journeys across fantastical realms."
-    },
-    {
-      "username": "StealthSniper",
-      "friends": ["EpicExplorer", "PlayerX", "MysticMage", "TechNinja"],
-      "description": "Silent but deadly. I'm the sniper lurking in the shadows, ready to take down targets with precision. Let's dominate the battlefield!"
-    },
-    {
-      "username": "PixelPilot",
-      "friends": ["PixelWizard", "ConsoleChamp", "TechNinja", "PlayerX"],
-      "description": "Flying high in pixelated skies! Join me for aerial adventures, dogfights, and daring missions as we navigate the digital skies together."
-    },
-    {
-      "username": "Speedster",
-      "real_name": "Carlos Martinez",
-      "friends": ["EpicExplorer", "QuestMaster", "StealthSniper"],
-      "description": "Speed is my game! Whether racing through virtual tracks or chasing victory in fast-paced shooters, I'm always in the lead. Let's rev up the fun!"
-    },
-    {
-      "username": "EpicExplorer",
-      "friends": ["PixelPilot", "Speedster", "QuestMaster", "PlayerX", "StealthSniper"],
-      "description": "Venturing into epic landscapes and discovering hidden treasures. Join me on an exploration journey filled with excitement and wonder!"
-    },
-    {
-      "username": "StrategySorcerer",
-      "real_name": "Isabella Brown",
-      "friends": ["ChampionChaser", "VirtualVigilante", "TechieTycoon"],
-      "description": "Mastering the art of strategy and magic. Let's conquer kingdoms, outwit foes, and forge alliances in the ever-evolving world of gaming."
-    },
-    {
-      "username": "VirtualVigilante",
-      "friends": ["StrategySorcerer", "ChampionChaser", "TechieTycoon"],
-      "description": "A vigilante in the digital realm, fighting for justice and honor. Join me in the quest to bring balance and righteousness to the gaming universe!"
-    },
-    {
-      "username": "ChampionChaser",
-      "real_name": "William Turner",
-      "friends": ["StrategySorcerer", "VirtualVigilante", "TechieTycoon"],
-      "description": "Seeking glory and championship titles in the gaming arena. Ready to face the best and emerge victorious as the ultimate champion!"
-    },
-    {
-      "username": "PixelPainter",
-      "friends": ["RetroRebel", "EpicExplorer", "TechieTycoon"],
-      "description": "Transforming pixels into art! Join me in creating beautiful virtual worlds, expressing creativity, and leaving a colorful mark on the gaming canvas."
-    },
-    {
-      "username": "RetroRebel",
-      "real_name": "Olivia White",
-      "friends": ["PixelPainter", "EpicExplorer", "TechieTycoon"],
-      "description": "Embracing the retro vibes and classic games. Let's relive the nostalgia together and celebrate the timeless joy of gaming!"
-    },
-    {
-      "username": "CosmicCommander",
-      "friends": ["BattleBard", "VirtualVigilante", "EpicExplorer"],
-      "description": "Commanding cosmic forces and navigating intergalactic adventures. Join me on a journey through the stars as we conquer the cosmos together!"
-    },
-    {
-      "username": "BattleBard",
-      "real_name": "Daniel Green",
-      "friends": ["CosmicCommander", "EpicExplorer", "ChampionChaser"],
-      "description": "Strumming the strings of victory! Join me in battles where music meets mayhem, and together, we'll create epic symphonies of triumph!"
-    },
-    {
-      "username": "TechieTycoon",
-      "friends": ["PixelPainter", "RetroRebel", "StrategySorcerer", "ChampionChaser"],
-      "description": "Building digital empires and conquering the virtual business world. Let's strategize, innovate, and rise to the top of the tech industry together!"
-    },
-    {
-      "username": "EtherealEnchantress",
-      "real_name": "Sophia Turner",
-      "friends": ["VirtualVigilante", "RetroRebel", "PixelWizard"],
-      "description": "Enchanting the digital realm with magic and grace. Join me in weaving spells and creating enchanting moments in the world of gaming!"
-    }
-  ]
-}
+[
+  {
+    "username": "Gamer1",
+    "real_name": "John Doe",
+    "friends": [
+      "PlayerX",
+      "QuestMaster",
+      "PixelWizard"
+    ],
+    "description": "Hey there! I'm an avid gamer who loves RPGs and strategy games. Let's team up and conquer virtual worlds together!"
+  },
+  {
+    "username": "PlayerX",
+    "real_name": "Jane Smith",
+    "friends": [
+      "Gamer1",
+      "PixelPilot",
+      "EpicExplorer",
+      "StealthSniper"
+    ],
+    "description": "Hello fellow gamers! I'm all about FPS games and competitive play. Let's aim for victory and have a blast!"
+  },
+  {
+    "username": "QuestMaster",
+    "friends": [
+      "PixelWizard",
+      "ChampionChaser",
+      "VirtualVigilante",
+      "EpicExplorer",
+      "PlayerX"
+    ],
+    "description": "Embarking on epic quests and slaying monsters is my specialty. Join me on thrilling adventures in the gaming realm!"
+  },
+  {
+    "username": "PixelWizard",
+    "friends": [
+      "Gamer1",
+      "PlayerX",
+      "EpicExplorer",
+      "ChampionChaser"
+    ],
+    "description": "Greetings! I'm a master of pixelated worlds. Let's build, explore, and create unforgettable gaming memories together!"
+  },
+  {
+    "username": "ConsoleChamp",
+    "real_name": "Alex Rodriguez",
+    "friends": [
+      "TechNinja",
+      "MysticMage",
+      "PixelPilot",
+      "StealthSniper"
+    ],
+    "description": "Console gaming is my domain. From action-packed adventures to sports simulations, I'm always up for a good challenge!"
+  },
+  {
+    "username": "TechNinja",
+    "friends": [
+      "PixelPilot",
+      "ConsoleChamp",
+      "EpicExplorer"
+    ],
+    "description": "Tech enthusiast by day, gaming ninja by night. Ready to showcase my skills and outsmart opponents in the digital arena!"
+  },
+  {
+    "username": "MysticMage",
+    "real_name": "Emily Johnson",
+    "friends": [
+      "PixelWizard",
+      "QuestMaster",
+      "EpicExplorer",
+      "StealthSniper"
+    ],
+    "description": "Greetings, fellow adventurers! I wield magical powers and seek companions to join me on mystical journeys across fantastical realms."
+  },
+  {
+    "username": "StealthSniper",
+    "friends": [
+      "EpicExplorer",
+      "PlayerX",
+      "MysticMage",
+      "TechNinja"
+    ],
+    "description": "Silent but deadly. I'm the sniper lurking in the shadows, ready to take down targets with precision. Let's dominate the battlefield!"
+  },
+  {
+    "username": "PixelPilot",
+    "friends": [
+      "PixelWizard",
+      "ConsoleChamp",
+      "TechNinja",
+      "PlayerX"
+    ],
+    "description": "Flying high in pixelated skies! Join me for aerial adventures, dogfights, and daring missions as we navigate the digital skies together."
+  },
+  {
+    "username": "Speedster",
+    "real_name": "Carlos Martinez",
+    "friends": [
+      "EpicExplorer",
+      "QuestMaster",
+      "StealthSniper"
+    ],
+    "description": "Speed is my game! Whether racing through virtual tracks or chasing victory in fast-paced shooters, I'm always in the lead. Let's rev up the fun!"
+  },
+  {
+    "username": "EpicExplorer",
+    "friends": [
+      "PixelPilot",
+      "Speedster",
+      "QuestMaster",
+      "PlayerX",
+      "StealthSniper"
+    ],
+    "description": "Venturing into epic landscapes and discovering hidden treasures. Join me on an exploration journey filled with excitement and wonder!"
+  },
+  {
+    "username": "StrategySorcerer",
+    "real_name": "Isabella Brown",
+    "friends": [
+      "ChampionChaser",
+      "VirtualVigilante",
+      "TechieTycoon"
+    ],
+    "description": "Mastering the art of strategy and magic. Let's conquer kingdoms, outwit foes, and forge alliances in the ever-evolving world of gaming."
+  },
+  {
+    "username": "VirtualVigilante",
+    "friends": [
+      "StrategySorcerer",
+      "ChampionChaser",
+      "TechieTycoon"
+    ],
+    "description": "A vigilante in the digital realm, fighting for justice and honor. Join me in the quest to bring balance and righteousness to the gaming universe!"
+  },
+  {
+    "username": "ChampionChaser",
+    "real_name": "William Turner",
+    "friends": [
+      "StrategySorcerer",
+      "VirtualVigilante",
+      "TechieTycoon"
+    ],
+    "description": "Seeking glory and championship titles in the gaming arena. Ready to face the best and emerge victorious as the ultimate champion!"
+  },
+  {
+    "username": "PixelPainter",
+    "friends": [
+      "RetroRebel",
+      "EpicExplorer",
+      "TechieTycoon"
+    ],
+    "description": "Transforming pixels into art! Join me in creating beautiful virtual worlds, expressing creativity, and leaving a colorful mark on the gaming canvas."
+  },
+  {
+    "username": "RetroRebel",
+    "real_name": "Olivia White",
+    "friends": [
+      "PixelPainter",
+      "EpicExplorer",
+      "TechieTycoon"
+    ],
+    "description": "Embracing the retro vibes and classic games. Let's relive the nostalgia together and celebrate the timeless joy of gaming!"
+  },
+  {
+    "username": "CosmicCommander",
+    "friends": [
+      "BattleBard",
+      "VirtualVigilante",
+      "EpicExplorer"
+    ],
+    "description": "Commanding cosmic forces and navigating intergalactic adventures. Join me on a journey through the stars as we conquer the cosmos together!"
+  },
+  {
+    "username": "BattleBard",
+    "real_name": "Daniel Green",
+    "friends": [
+      "CosmicCommander",
+      "EpicExplorer",
+      "ChampionChaser"
+    ],
+    "description": "Strumming the strings of victory! Join me in battles where music meets mayhem, and together, we'll create epic symphonies of triumph!"
+  },
+  {
+    "username": "TechieTycoon",
+    "friends": [
+      "PixelPainter",
+      "RetroRebel",
+      "StrategySorcerer",
+      "ChampionChaser"
+    ],
+    "description": "Building digital empires and conquering the virtual business world. Let's strategize, innovate, and rise to the top of the tech industry together!"
+  },
+  {
+    "username": "EtherealEnchantress",
+    "real_name": "Sophia Turner",
+    "friends": [
+      "VirtualVigilante",
+      "RetroRebel",
+      "PixelWizard"
+    ],
+    "description": "Enchanting the digital realm with magic and grace. Join me in weaving spells and creating enchanting moments in the world of gaming!"
+  }
+]

@@ -1,23 +1,48 @@
-<script setup>
+<script>
+import profiles from "@/json/profiles.json";
+import router from "@/router";
 
+export default {
+  name: "LoginComponent",
+  data() {
+    return {
+      username: "",
+      profiles: profiles,
+    }
+  },
+  methods: {
+    checkLogin() {
+      localStorage.clear();
+      let profile = this.profiles.filter((p) => {
+        return p.username.indexOf(this.username) !== -1;
+      });
+      console.log(profile);
+      if (profile.length === 1) {
+        localStorage.setItem("Profile", profile[0].username);
+        localStorage.setItem("ProfileId", this.profiles.indexOf(profile[0]));
+        router.push("/magasin");
+      }
+    },
+  }
+};
 </script>
 
 <template>
   <div class="login-container">
     <h2>Login</h2>
-    <form class="login-form" action="#" method="post">
+    <div class="login-form">
       <div class="form-group">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input v-model="username" type="text" id="username" name="username">
       </div>
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-      </div>
+      </div> -->
       <div class="form-group">
-        <button type="submit">Login</button>
+        <button @click="checkLogin">Login</button>
       </div>
-    </form>
+    </div>
   </div>
 </template>
 
