@@ -19,16 +19,14 @@ export default {
       let games = this.mygames.filter((p) => {
         return p.name.toLowerCase().indexOf(this.gameSearch.toLowerCase()) !== -1;
       });
-      if (this.activeTags !== "")
-      {
+      if (this.activeTags !== "") {
         this.activeTags.forEach(filterTag => {
           games = games.filter((p) => {
             return p.tags.indexOf(filterTag) !== -1;
           });
         })
       }
-      if (this.priceRange !== 13)
-      {
+      if (this.priceRange !== 13) {
         games = games.filter((p) => {
           if (p.price > (this.priceRange * 6))
             return p.name.indexOf(p.name);
@@ -40,7 +38,7 @@ export default {
     },
     shuffledGames() {
       let gamesCopy = [...this.mygames];
-      
+
       for (let i = gamesCopy.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [gamesCopy[i], gamesCopy[j]] = [gamesCopy[j], gamesCopy[i]];
@@ -76,15 +74,14 @@ export default {
               d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
         </svg>
       </div>
-      <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch" placeholder="Rechercher un jeu..."/>
+      <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch"
+             placeholder="Rechercher un jeu..."/>
     </div>
     <div class="product-container">
-      <div class="product-box" v-for="game in shuffledGames" :key="game.id">
-        <div @click="selectGame(game)">
-          <h3>{{ game.name }}</h3>
-          <p>{{ game.tags }}</p>
-          <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;">
-        </div>
+      <div class="product-box" v-for="game in shuffledGames" @click="selectGame(game)" :key="game.id">
+        <h3>{{ game.name }}</h3>
+        <p>{{ game.tags }}</p>
+        <img :src="'../../src/image/' + game.image" alt="Game image" style="width: 100%;">
       </div>
     </div>
     <div v-if="selectedGame" class="game-details modal-content" ref="gameDetailsModal">
@@ -139,7 +136,6 @@ export default {
 .product-box {
   width: calc(25% - 15px);
   box-sizing: border-box;
-  border: 1px solid #b82626;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
@@ -216,6 +212,7 @@ export default {
   width: 100%;
   z-index: 2;
 }
+
 .game-details-content {
   display: flex;
   flex-direction: column;
@@ -260,6 +257,7 @@ export default {
   font-size: 28px;
   font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
   color: black;
