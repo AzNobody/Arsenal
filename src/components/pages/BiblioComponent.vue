@@ -9,26 +9,6 @@ export default {
       mygames: games,
       tags: tags,
       gameSearch: "",
-      tagSearch: "",
-      activeTags: [],
-      priceFilter: {
-        0: "Gratuit",
-        1: "Moins de 6$",
-        2: "Moins de 12$",
-        3: "Moins de 18$",
-        4: "Moins de 24$",
-        5: "Moins de 30$",
-        6: "Moins de 36$",
-        7: "Moins de 42$",
-        8: "Moins de 48$",
-        9: "Moins de 54$",
-        10: "Moins de 60$",
-        11: "Moins de 66$",
-        12: "Moins de 72$",
-        13: "N'importe quel prix"
-      },
-      priceRange: 13,
-      showDropdown: false,
       minGamesToShow: 3,
       maxGamesToShow: 6,
       selectedGame: null,
@@ -57,14 +37,6 @@ export default {
         })
       }
       return games;
-    },
-    searchTags() {
-      return this.tags.filter((p) => {
-        return p.tag.toLowerCase().indexOf(this.tagSearch.toLowerCase()) !== -1;
-      });
-    },
-    activeTagsList() {
-      return this.activeTags;
     },
     shuffledGames() {
       let gamesCopy = [...this.mygames];
@@ -105,26 +77,6 @@ export default {
         </svg>
       </div>
       <input id="gameSearchBarInput" type="text" maxlength="60" v-model="gameSearch" placeholder="Rechercher un jeu..."/>
-      <div @mouseenter="showDropdown = true" @mouseleave="showDropdown = false" class="dropdown">
-        <button @click="showDropdown = !showDropdown" class="dropdownbtn">
-          <svg xmlns="http://www.w3.org/2000/svg" height="12" width="16" viewBox="0 0 384 512">
-            <path fill="#c0c0c0"
-                  d="M19.7 34.5c16.3-6.8 35 .9 41.8 17.2L192 364.8 322.5 51.7c6.8-16.3 25.5-24 41.8-17.2s24 25.5 17.2 41.8l-160 384c-5 11.9-16.6 19.7-29.5 19.7s-24.6-7.8-29.5-19.7L2.5 76.3c-6.8-16.3 .9-35 17.2-41.8z"/>
-          </svg>
-        </button>
-        <div class="dropdown-content" v-if="showDropdown">
-          <div>Recherche par tag: </div>
-          <div class="search-bar">
-            <input id="tagSearchBarInput" type="text" maxlength="20" v-model="tagSearch"/>
-          </div>
-          <span v-for="tag in activeTagsList" :key="tag">
-            <div style="margin: 10px;" v-show="activeTags.indexOf(tag) !== -1"><button @click="activeTags.splice(activeTags.indexOf(tag),1);">-</button> {{ tag }}</div>
-          </span>
-          <span v-for="tag in searchTags.slice(0,7 + activeTags.length)" :key="tag.tag">
-            <div style="margin: 10px;" v-show="activeTags.indexOf(tag.tag) === -1"><button @click="activeTags.push(tag.tag);">+</button> {{ tag.tag }}</div>
-          </span>
-        </div>
-      </div>
     </div>
     <div class="product-container">
       <div class="product-box" v-for="game in shuffledGames" :key="game.id">
@@ -158,7 +110,7 @@ export default {
 }
 
 .line-break {
-  margin-top: 50px;
+  margin-top: 80px;
   position: absolute;
   left: 40%;
   width: 20%;
@@ -171,7 +123,7 @@ export default {
   text-align: center;
   font-size: 34pt;
   text-transform: uppercase;
-  margin-top: 120px;
+  margin: 120px 0 80px 0;
   position: relative;
 }
 
@@ -240,15 +192,6 @@ export default {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#tagSearchBarInput {
-  width: 96%;
-  height: 30px;
-  font-size: 14pt;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  padding: 5px;
-}
-
 #magnifyingGlass {
   position: absolute;
   right: 17%;
@@ -257,35 +200,6 @@ export default {
   align-items: center;
   height: 100%;
   padding: 0 10px;
-}
-
-.dropdownbtn {
-  background-color: black;
-  width: 100%;
-  padding: 14px;
-  margin-left: 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 15px;
-  transition: background-color 0.3s ease;
-}
-
-.dropdownbtn:hover {
-  background-color: #555;
-}
-
-.dropdown-content {
-  position: absolute;
-  display: block;
-  background-color: #F2E2C4;
-  width: 240px;
-  right: 3%;
-  transform: translateX(-50%);
-  overflow: hidden;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  z-index: 1;
 }
 
 .game-details {
