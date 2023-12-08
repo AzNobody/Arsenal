@@ -7,6 +7,9 @@
 		"editor": "CD Projekt",
 		"release_date": "2015-05-19",
 		"image": "witcher3.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Open-world RPG with a gripping narrative and stunning visuals.",
 		"ratings": 4.9,
 		"tags": [
@@ -70,6 +73,9 @@
 		"editor": "2K",
 		"release_date": "2016-10-21",
 		"image": "civ6.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Turn-based strategy game where you build and lead your civilization to greatness.",
 		"ratings": 4.7,
 		"tags": [
@@ -126,6 +132,9 @@
 		"editor": "Behaviour Interactive",
 		"release_date": "2016-06-14",
 		"image": "deadbydaylight.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Asymmetrical horror multiplayer game where one player is the killer and the others are survivors.",
 		"ratings": 4.6,
 		"tags": [
@@ -182,6 +191,9 @@
 		"editor": "Valve",
 		"release_date": "2012-08-21",
 		"image": "csgo.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Tactical first-person shooter with fast-paced multiplayer action.",
 		"ratings": 4.2,
 		"tags": [
@@ -244,6 +256,9 @@
 		"editor": "Bethesda Softworks",
 		"release_date": "2011-11-11",
 		"image": "skyrim.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Open-world action RPG set in a vast fantasy world.",
 		"ratings": 4.8,
 		"tags": [
@@ -313,6 +328,9 @@
 		"editor": "Epic Games",
 		"release_date": "2017-07-25",
 		"image": "fortnite.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Battle Royale game with a unique building mechanic and vibrant graphics.",
 		"ratings": 4.4,
 		"tags": [
@@ -377,6 +395,9 @@
 		"editor": "Electronic Arts",
 		"release_date": "2021-10-01",
 		"image": "fifa22.jpg",
+		"hoursPlayed": 10,
+		"achievements": 5,
+		"lastPlayed": "2023-06-01",
 		"description": "Football simulation game with realistic graphics and immersive gameplay.",
 		"ratings": 4.6,
 		"tags": [
