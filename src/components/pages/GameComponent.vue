@@ -1,6 +1,7 @@
 <script>
 import TopBarComponent from "@/components/pages/TopBarComponent.vue";
 import games from "@/json/games.json";
+import {useCartArrayStore} from "@/stores/cart";
 
 export default {
   name: "GameComponent",
@@ -11,6 +12,10 @@ export default {
     }
   },
   methods: {
+    addToCartHandler(gameId) {
+      const store = useCartArrayStore();
+      store.addToCart(gameId);
+    },
     formatDatetime(datetime) {
       const options = { day: "2-digit", month: "2-digit", year: "numeric", hour: "2-digit", minute: "2-digit" };
       const formattedDatetime = new Date(datetime).toLocaleDateString("fr-FR", options);
@@ -47,7 +52,7 @@ export default {
           </div>
           <img :src="'/ESRB/' + game.esrb_rating + '.png'" :alt="game.esrb_rating + ' Rating'">
         </div>
-        <div class="shopping-cart">
+        <div class="shopping-cart" @click="addToCartHandler(game.id)">
           <a class="cartButton"><span>{{ game.price }}$</span> Ajouter au panier <font-awesome-icon
               icon="fa-solid fa-cart-plus" style="color: #f5f5f5; font-size: 20px;" />
           </a>

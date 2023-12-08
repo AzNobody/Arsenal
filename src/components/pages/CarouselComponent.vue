@@ -1,9 +1,10 @@
 <script>
 import { defineComponent } from 'vue'
 import { Carousel, Navigation, Pagination, Slide } from 'vue3-carousel'
+import games from "@/json/games.json";
 
-//Utilisation de la librairie vue3-carousel, il manque énormément de doc et pas tout le style
-//fonctionne correctement mais correction possible avec les bons selecteurs
+// Utilisation de la librairie vue3-carousel, il manque énormément de doc et pas tout le style
+// fonctionne correctement mais correction possible avec les bons selecteurs
 import 'vue3-carousel/dist/carousel.css'
 
 export default defineComponent({
@@ -14,15 +15,25 @@ export default defineComponent({
     Pagination,
     Navigation,
   },
-  data() {
-    return {
-      imagePaths: [
-        "/src/assets/images_carousel/apex_skies.jpg",
-        "/src/assets/images_carousel/cyber_noir.jpg",
-        "/src/assets/images_carousel/mystic_chronicles.jpg",
-      ],
-    };
+  computed: {
+    imagePaths() {
+      return [
+        "/src/image/apex_skies.jpg",
+        "/src/image/cyber_noir.jpg",
+        "/src/image/mystic_chronicles.jpg",
+      ];
+    },
   },
+  methods: {
+    getGameId(imagePath) {
+      const image = imagePath.replace("/src/image/", "");
+      for (let i = 0; i < games.length; i++) {
+        if (games[i].image === image) {
+          return games[i].id; // Corrected to return the game ID
+        }
+      }
+    }
+  }
 })
 </script>
 
@@ -30,7 +41,9 @@ export default defineComponent({
   <Carousel :wrap-around="true">
     <Slide v-for="image in imagePaths" :key="image">
       <div class="carousel__item">
-        <img :src="image" alt="Slide Image" style="width: 500px; height: 500px;">
+        <router-link :to="'/jeu/' + getGameId(image)">
+          <img :src="image" alt="Slide Image" style="width: 500px; height: 500px;">
+        </router-link>
       </div>
     </Slide>
 
