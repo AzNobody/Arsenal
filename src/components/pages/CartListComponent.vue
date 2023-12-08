@@ -29,7 +29,7 @@ export default {
 </script>
 
 <template>
-  <h1>Votre Panier</h1>
+  <h1 class="main-title">Votre Panier</h1>
   <div class="line-break"></div>
   <div class="cart-items">
     <div class="cart-box" v-for="game in getCartHandler" :key="game.id">
@@ -51,9 +51,10 @@ export default {
 </template>
 
 <style scoped>
-h1 {
+.main-title {
   text-align: center;
   margin-top: 40px;
+  text-transform: uppercase;
 }
 
 .line-break {
