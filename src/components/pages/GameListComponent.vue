@@ -205,6 +205,7 @@ export default {
   top: 0;
   z-index: 3;
   height: 100%;
+  width: 100%;
   position: absolute;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.9);
