@@ -87,11 +87,11 @@ export default {
     <div v-if="selectedGame" class="game-details modal-content" ref="gameDetailsModal">
       <div class="game-details-content">
         <span class="close" @click="closeGameDetails">&times;</span>
-        <h2>{{ selectedGame.name }}</h2>
+        <h2 style="text-align: center;">{{ selectedGame.name }}</h2>
         <p><strong>Heures jouées:</strong> {{ selectedGame.hoursPlayed }}</p>
         <p><strong>Succès déverrouillés:</strong> {{ selectedGame.achievements }}</p>
         <p><strong>Dernière utilisation:</strong> {{ selectedGame.lastPlayed }}</p>
-        <img :src="'../../src/image/' + selectedGame.image" alt="Game image" style="width: 100%;">
+        <img :src="'../../src/image/' + selectedGame.image" alt="Game image" style="width: 100%; border-radius: 5px;">
       </div>
     </div>
   </div>
