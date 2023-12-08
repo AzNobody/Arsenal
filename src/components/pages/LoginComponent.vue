@@ -30,7 +30,7 @@ export default {
 <template>
   <div class="login-container">
     <form action="" class="form">
-      <img src="@/assets/arsenal_logo.svg" alt="">
+      <img src="@/assets/arsenal_logo.svg" alt="" style="padding: 10px; left: 37%;">
       <h2>Login</h2>
       <div class="input-group">
         <input v-model="username" type="text" name="username" id="username" required>

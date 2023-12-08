@@ -76,7 +76,6 @@ export default defineComponent({
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-bottom: 10px;
 }
 
 .carousel__prev,
