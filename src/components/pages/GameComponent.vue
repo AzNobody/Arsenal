@@ -186,7 +186,7 @@ export default {
 
 .ratings-date h3 {
   font-size: 15px;
-  color: #888;
+  color: #323537;
 }
 
 .ratings-date h3 span {
@@ -195,7 +195,7 @@ export default {
 
 .developer-editor h3 {
   font-size: 15px;
-  color: #888;
+  color: #323537;
 }
 
 .developer-editor h3 span {
@@ -208,12 +208,12 @@ export default {
 
 .tag-container h3 {
   font-size: 15px;
-  color: #888;
+  color: #323537;
 }
 
 .tag-item {
   display: inline-block;
-  background-color: #b6b5b5;
+  background-color: #323537;
   color: #fff;
   padding: 5px 10px;
   margin: 0 5px 20px 5px;
@@ -229,6 +229,7 @@ export default {
   display: inline-block;
   padding: 15px 30px;
   background-color: #3498db;
+  font-weight: bold;
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -297,7 +298,8 @@ export default {
 }
 
 .product-dlcs li a span {
-  color: #888;
+  color: #323537;
+  font-weight: bold;
   font-size: 14px;
 }
 
@@ -339,7 +341,8 @@ export default {
 
 .config-table td {
   font-size: 14px;
-  color: #888;
+  color: #323537;
+  font-weight: bold;
   padding: 4px;
   box-sizing: border-box;
 }
