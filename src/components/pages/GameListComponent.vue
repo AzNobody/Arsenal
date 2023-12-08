@@ -222,6 +222,7 @@ export default {
   font-size: 14px;
   font-weight: normal;
   margin-bottom: 20px;
+  padding: 10px 20px 10px 10px;
   height: auto;
   overflow: hidden;
 }
