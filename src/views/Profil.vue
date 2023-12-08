@@ -22,7 +22,7 @@ export default {
       <h2>{{ profile.username }}</h2>
       <p id="profileDescription"> {{ profile.description }}</p>
       <div id="addFriendSection">
-        <button id="addFriend">+ Ajouter un ami</button>
+        <button id="addFriend">+ Rechercher un ami</button>
       </div>
     </div>
   </div>

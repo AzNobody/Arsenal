@@ -1,6 +1,7 @@
 <script>
 import profiles from "@/json/profiles.json";
 import router from "@/router";
+import {useCartArrayStore} from "@/stores/cart";
 
 export default {
   name: "LoginComponent",
@@ -20,6 +21,8 @@ export default {
       if (profile.length === 1) {
         localStorage.setItem("Profile", profile[0].username);
         localStorage.setItem("ProfileId", this.profiles.indexOf(profile[0]));
+        const store = useCartArrayStore();
+        store.cart = [];
         router.push("/magasin");
       }
     },
@@ -29,7 +32,7 @@ export default {
 
 <template>
   <div class="login-container">
-    <form action="" class="form">
+    <div class="form">
       <img src="@/assets/arsenal_logo.svg" alt="" style="padding: 10px; left: 37%;">
       <h2>Login</h2>
       <div class="input-group">
@@ -37,7 +40,7 @@ export default {
         <label for="username">Username</label>
       </div>
       <button class="submit-btn" @click="checkLogin">Login</button>
-    </form>
+    </div>
   </div>
 </template>
 
