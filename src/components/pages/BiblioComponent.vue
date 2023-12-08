@@ -91,7 +91,8 @@ export default {
         <p><strong>Heures jouées:</strong> {{ selectedGame.hoursPlayed }}</p>
         <p><strong>Succès déverrouillés:</strong> {{ selectedGame.achievements }}</p>
         <p><strong>Dernière utilisation:</strong> {{ selectedGame.lastPlayed }}</p>
-        <img :src="'../../src/image/' + selectedGame.image" alt="Game image" style="width: 100%; border-radius: 5px;">
+        <img :src="'../../src/image/' + selectedGame.image" alt="Game image" class="game-image">
+        <button class="play-button">▷</button>
       </div>
     </div>
   </div>
@@ -214,6 +215,7 @@ export default {
 }
 
 .game-details-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,9 +224,28 @@ export default {
 
 .game-image {
   width: 100%;
-  max-height: 200px;
-  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.play-button {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 40px;
+  cursor: pointer;
   border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .game-details h2 {
