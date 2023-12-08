@@ -122,12 +122,14 @@ export default {
               {{ tag }}
             </div>
           </div>
-          <div id="shoppingCart">
+          <router-link :to="'/magasin'">
+          <div id="shoppingCart" @click="addToCartHandler(game.id)">
             <h3>{{ game.price }}$</h3>
-            <a id="cartButton" @click="addToCartHandler(game.id)" class="topBarButton">
+            <a id="cartButton" class="topBarButton">
               <font-awesome-icon icon="fa-cart-shopping" style="color: #f5f5f5;" />
             </a>
           </div>
+          </router-link>
         </div>
       </router-link>
     </div>
