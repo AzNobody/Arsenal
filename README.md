@@ -1,7 +1,7 @@
 # Arsenal - Plateforme de Distribution de Contenu Digital
 
 ## Description
-Arsenal est une plateforme web de distribution de contenu digital axée sur les jeux vidéo. Inspirée par des plateformes renommées telles que "Steam", Arsenal vise à offrir une expérience utilisateur intuitive et complète pour découvrir, acheter et gérer des jeux vidéo.
+Arsenal est une plateforme web de distribution fictive de contenu digital axée sur les jeux vidéo. Inspirée par des plateformes renommées telles que "Steam", Arsenal vise à offrir une expérience utilisateur intuitive et complète pour découvrir, acheter et gérer des jeux vidéo.
 
 ## Fonctionnalités
 - **Catalogue de jeux vidéo** : Consultez une vaste sélection de jeux vidéo disponibles à l'achat (fictif).

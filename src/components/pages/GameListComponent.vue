@@ -162,6 +162,7 @@ export default {
   gap: 20px;
   max-width: 90%;
   margin-left: 5%;
+  margin-bottom: 30px;
 }
 
 .product-box {
